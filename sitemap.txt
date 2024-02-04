@@ -1,5 +1,5 @@
+https://zilc1n.github.io/guidance.html
 https://zilc1n.github.io/Hello.html
-https://zilc1n.github.io/index.html
 https://zilc1n.github.io/categories/index.html
 https://zilc1n.github.io/tags/index.html
 https://zilc1n.github.io/archives/index.html
