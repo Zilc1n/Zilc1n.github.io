@@ -6,7 +6,7 @@
   <link href="https://zilc1n.github.io/atom.xml" rel="self"/>
   
   <link href="https://zilc1n.github.io/"/>
-  <updated>2024-02-04T09:13:16.734Z</updated>
+  <updated>2024-02-05T01:58:28.015Z</updated>
   <id>https://zilc1n.github.io/</id>
   
   <author>
@@ -15,6 +15,19 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://zilc1n.github.io/test.html"/>
+    <id>https://zilc1n.github.io/test.html</id>
+    <published>2024-02-05T01:54:13.330Z</published>
+    <updated>2024-02-05T01:58:28.015Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>index</title>
