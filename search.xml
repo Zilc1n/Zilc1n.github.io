@@ -2176,7 +2176,7 @@
 <h2 id="Medium"><a href="#Medium" class="headerlink" title="Medium"></a>Medium</h2><p><a href="https://codeforces.com/problemset/problem/1352/C">题目链接</a></p>
 <p>简单翻译：给定两个正整数 $n$ 和 $k$。打印第 $k$ 个不能被 $n$ 整除的正整数。</p>
 <ul>
-<li><p>把所有整数分为若干段，$ 1 \sim n,  n + 1 \sim n <em> 2,  n </em> 2 + 1 \sim n * 3…$, 每个区间有 $(n - 1)$ 个不能被整除的数</p>
+<li><p>把所有整数分为若干段，$ 1 - n,  n + 1 - n <em> 2,  n </em> 2 + 1 - n * 3…$, 每个区间有 $(n - 1)$ 个不能被整除的数</p>
 </li>
 <li><p>考虑不能被 $n$ 整除的第 $k$​ 个数应该在哪个区间，提示：考虑 $k$ 能否整除 $(n - 1)$​</p>
 <p>  在<strong>C++</strong>中可以这样写</p>
