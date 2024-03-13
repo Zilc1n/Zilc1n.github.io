@@ -1,46 +1,2176 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>test</title>
-      <link href="//test.html"/>
-      <url>//test.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>index</title>
-      <link href="//guidance.html"/>
-      <url>//guidance.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="前置知识"><a href="#前置知识" class="headerlink" title="前置知识"></a>前置知识</h2><p>这里引用变量<script type="math/tex">a_i</script></p><script type="math/tex; mode=display">\sigma = x_1 + y_1</script><ul><li>[ ] 掌握操作系统使用</li><li>[ ] 熟练重装系统</li><li>[ ] 什么是web网站？<ul><li><a href="https://baike.baidu.com/item/web/150564">https://baike.baidu.com/item/web/150564</a></li></ul></li><li><p>[ ] HTML/CSS/JS</p><ul><li><p><a href="https://www.w3schools.com/">https://www.w3schools.com/</a></p></li><li><p><a href="https://developer.mozilla.org/zh-CN/docs/Web">https://developer.mozilla.org/zh-CN/docs/Web</a></p></li><li><p><a href="https://www.runoob.com/tags/ref-standardattributes.html">https://www.runoob.com/tags/ref-standardattributes.html</a></p></li></ul></li><li>[ ] Golang（未来趋势，良好的跨平台、优秀的多线程和网络处理）<ul><li><a href="https://www.bilibili.com/video/BV1vM411r7GW/">【坤哥力荐】4星期速成学会poc，摆脱脚本小子</a></li></ul></li><li>[ ] Python（社区庞大，入门简单，可以作为初学语言）<ul><li><a href="https://www.bilibili.com/video/BV1qW4y1a7fU">https://www.bilibili.com/video/BV1qW4y1a7fU</a></li></ul></li><li>[ ] Java（后端开发主流语言，通用漏洞发现几乎是最多的语言，学习难度大，不推荐）</li><li>[ ] 数据库（一种类型选择一个了解）<ul><li>Sql<ul><li>[ ] MySQL（推荐）</li><li>[ ] Oracle</li><li>[ ] MSSQL</li></ul></li><li>NoSql<ul><li>[ ] Redis（推荐）</li><li>[ ] MongoDB</li><li>[ ] ElasticSearch</li></ul></li></ul></li><li>[ ] Linux基础命令（日常操作、应急和搭建靶场）<ul><li><a href="http://linux-command.kit.secself.com/">Linux命令速查手册</a></li><li><a href="https://www.runoob.com/linux/linux-command-manual.html">Linux 命令大全</a></li></ul></li><li>[ ] Docker（了解原理，日常使用无障碍）<ul><li><a href="https://www.runoob.com/docker/docker-tutorial.html">Docker 教程</a></li><li><a href="https://github.com/docker/compose">Docker Compose </a></li></ul></li></ul><p>掌握一门后端编程语言，有编程基础后续学习更顺利。</p><h3 id="协议"><a href="#协议" class="headerlink" title="协议"></a>协议</h3><p>助安社区开源的基础速成，大部分基础协议都已整理完毕，点击 👉  <a href="http://security-base.book.secself.com/protocol/index.html">安全速学手册</a></p><ul><li><p>[ ] HTTP协议</p><ul><li><p><a href="https://developer.mozilla.org/zh-CN/docs/Web/HTTP">超文本传输协议（HTTP）</a></p></li><li><p><a href="https://www.runoob.com/http/http-tutorial.html">HTTP 教程</a></p></li></ul></li><li>[ ] ARP</li><li>[ ] DHCP</li><li>[ ] SMB</li><li>[ ] DNS</li><li>[ ] 代理</li><li>[ ] HTTP</li><li>[ ] Socks5</li><li>[ ] VPN</li><li>[ ] FTP</li><li>[ ] SSH</li></ul><p>…</p><h2 id="信息收集"><a href="#信息收集" class="headerlink" title="信息收集"></a>信息收集</h2><h3 id="网络"><a href="#网络" class="headerlink" title="网络"></a>网络</h3><ul><li><p>[ ] 子网掩码（B段、C段）</p><ul><li>[ ] <a href="https://www.zhihu.com/question/56895036">如何理解子网掩码？</a></li><li>[ ] 工具<ul><li>[ ] <a href="https://github.com/robertdavidgraham/masscan">Masascan</a></li><li>[ ] <a href="https://zmap.io/">Zmap</a><ul><li>[ ] <a href="https://github.com/zmap/zgrab2">zgrab2</a></li></ul></li><li>[ ] <a href="https://nmap.org">Nmap</a></li></ul></li></ul></li><li><p>[ ] ASN</p><ul><li><a href="https://www.cloudflare.com/zh-cn/learning/network-layer/what-is-an-autonomous-system/">什么是自治系统？| 什么是 ASN？</a></li><li><p>ASN 查询</p><ul><li><p><a href="https://hackertarget.com/as-ip-lookup/">https://hackertarget.com/as-ip-lookup/</a></p></li><li><p><a href="https://dnschecker.org/asn-whois-lookup.php">https://dnschecker.org/asn-whois-lookup.php</a></p></li></ul></li><li><p>工具</p><ul><li>[ ] <a href="https://github.com/owasp-amass/amass">Amass</a></li><li>[ ] <a href="https://zmap.io/">Zmap</a><ul><li>[ ] <a href="https://github.com/zmap/zcrypto">zcrypto</a></li></ul></li></ul></li></ul></li><li><p>[ ] IP反查域名</p><ul><li><a href="https://www.ipaddress.com/">https://www.ipaddress.com/</a></li></ul></li></ul><h3 id="域名"><a href="#域名" class="headerlink" title="域名"></a>域名</h3><ul><li>[ ] 子域名（A记录/AAAA记录（IPV6））</li><li>[ ] CNAME</li><li>[ ] 邮箱记录（MX）</li><li>[ ] TXT</li><li><p>[ ] 历史记录</p><ul><li><a href="https://securitytrails.com">https://securitytrails.com</a></li></ul></li><li><p>[ ] 工具</p><ul><li>[ ] Whois</li><li>[ ] <a href="https://github.com/owasp-amass/amass">Amass</a></li><li>[ ] <a href="https://github.com/yanxiu0614/subdomain3.git">subdomain3</a></li><li>[ ] <a href="https://github.com/resurrecting-open-source-projects/dnsmap">dnsmap</a></li><li>[ ] <a href="https://github.com/knownsec/ksubdomain.git">ksubdomain </a></li></ul></li></ul><h3 id="公开信息"><a href="#公开信息" class="headerlink" title="公开信息"></a>公开信息</h3><ul><li><p>[ ] 搜索引擎</p><ul><li>[ ] <a href="https://www.exploit-db.com/google-hacking-database">黑客常用的Google搜索语法</a></li></ul></li><li><p>[ ] 网络空间搜索引擎</p><ul><li><p>[ ] <a href="https://fofa.info/">FOFA</a></p></li><li><p>[ ] <a href="https://www.shodan.io/">Shadow</a></p></li><li><p>[ ] <a href="https://censys.io/">Censys</a></p></li><li><p>[ ] <a href="https://www.zoomeye.org/">ZoomEye</a></p></li></ul></li><li><p>[ ] 工商信息</p><ul><li><p>[ ] 证书</p></li><li><p>[ ] 邮箱</p></li><li><p>[ ] <a href="https://beian.miit.gov.cn/">ICP备案信息</a></p></li><li><p>[ ] 子公司</p></li><li><p>[ ] 集团</p></li><li><p>[ ] 合作商</p></li><li><p>[ ] 供应商</p></li></ul></li></ul><h3 id="HTTP"><a href="#HTTP" class="headerlink" title="HTTP"></a>HTTP</h3><ul><li>[ ] 网站目录</li></ul><h3 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h3><ul><li><p>[ ] <a href="https://www.maltego.com/">Maltego</a></p></li><li><p>[ ] <a href="https://github.com/Threezh1/JSFinder">JSFinder</a></p></li><li><p>[ ] <a href="https://github.com/shmilylty/OneForAll">OneForAll</a></p></li><li><p>[ ] <a href="https://github.com/topics/subdomain-scanner">subdomain-scanner</a></p></li></ul><h3 id="指纹"><a href="#指纹" class="headerlink" title="指纹"></a>指纹</h3><p>待补充</p><h2 id="漏洞挖掘"><a href="#漏洞挖掘" class="headerlink" title="漏洞挖掘"></a>漏洞挖掘</h2><h3 id="WEB漏洞（原理搞懂，靶场实践几次）"><a href="#WEB漏洞（原理搞懂，靶场实践几次）" class="headerlink" title="WEB漏洞（原理搞懂，靶场实践几次）"></a>WEB漏洞（原理搞懂，靶场实践几次）</h3><ul><li><p>[ ] Owasp 漏洞</p><ul><li><a href="https://owasp.org/Top10/zh_CN/">OWASP Top 10 2021 介紹 </a></li></ul></li><li><a href="http://www.owasp.org.cn/OWASP-CHINA/owasp-project/OWASP-TOP10-2021%E4%B8%AD%E6%96%87%E7%89%88V1.0%E5%8F%91%E5%B8%83.pdf">PDF中文下载地址</a></li><li>[ ] JSONP劫持</li><li>[ ] CRLF注入</li><li>[ ] 命令执行</li><li>[ ] 代码执行</li><li>[ ] XXE</li><li>[ ] CSRF</li><li>[ ] SSRF</li><li>[ ] DDOS</li><li>[ ] CRLF injection</li><li>[ ] 反序列化漏洞</li><li>[ ] 弱类型漏洞</li><li>[ ] 变量覆盖漏洞</li><li><p>[ ] Sql注入</p><ul><li><p>[ ] 类型</p><ul><li><p>[ ] 报错</p></li><li><p>[ ] 联合查询</p></li><li><p>[ ] 堆查询</p></li><li><p>[ ] 盲注</p></li></ul></li><li><p>[ ] 攻击利用</p><ul><li><p>[ ] 寻找注入点</p><ul><li><p>[ ] POST</p></li><li><p>[ ] GET</p></li><li><p>[ ] Cookie</p></li><li><p>[ ] Header</p></li></ul></li><li><p>[ ] 手工注入</p></li><li><p>[ ] DNSLog</p></li><li><p>[ ] 工具注入</p></li><li><p>[ ] GetShell</p></li><li><p>[ ] 绕过防御</p></li></ul></li><li><p>[ ] 预防修复</p><ul><li><p>[ ] 应用层</p></li><li><p>[ ] 网络层</p></li></ul></li></ul></li><li><p>[ ] 文件漏洞</p><ul><li><p>[ ] 文件上传漏洞</p><ul><li><p>[ ] 逻辑</p><ul><li><p>[ ] 黑白名单绕过</p></li><li><p>[ ] MIME绕过</p></li><li><p>[x] 后端校验缺失</p></li></ul></li><li><p>[ ] 通用漏洞</p><ul><li><p>[ ] 截断</p></li><li><p>[ ] 利用中间件漏洞绕过</p><ul><li><p>[ ] IIS 5.x/6.0</p></li><li><p>[ ] Nginx</p></li><li><p>[ ] apache</p></li></ul></li><li><p>[ ] 编辑器漏洞</p><ul><li><p>[ ] DotNetTextBox</p></li><li><p>[ ] fckeditor</p></li><li><p>[ ] eWebEditor</p></li><li><p>[ ] UEditor</p></li></ul></li><li><p>[ ] 文件头</p></li><li><p>[ ] .htaccess 绕过</p></li></ul></li></ul></li><li><p>[ ] 文件删除漏洞</p></li><li><p>[ ] 文件包含漏洞</p><ul><li><p>[ ] ⽂件远程包含</p></li><li><p>[ ] ⽂件本地包含</p></li></ul></li></ul></li><li><p>[ ] XSS</p><ul><li><p>[ ] 基础知识</p><ul><li><p>[ ] 反射型</p></li><li><p>[ ] 存储型</p></li><li><p>[ ] DOM型</p></li></ul></li><li><p>[ ] 攻击利用</p><ul><li><p>[ ] XSS盲打平台</p></li><li><p>[ ] DNSLog</p></li><li><p>[ ] 绕过防御</p><ul><li><p>[ ] 同源策略</p></li><li><p>[ ] CORS</p></li><li><p>[ ] httpOnly</p></li><li><p>[ ] CSP</p></li></ul></li><li><p>[ ] 缓冲区溢出GetShell</p></li></ul></li></ul></li><li><p>[ ] 逻辑漏洞</p><ul><li><p>[ ] 系统重装漏洞</p></li><li><p>[ ] 手机验证</p></li><li><p>[ ] 登入爆破</p></li></ul></li><li><p>[ ] 任意用户密码重置</p><ul><li><p>[ ] 越权</p><ul><li><p>[ ] 纵向</p></li><li><p>[ ] 横向</p></li></ul></li><li><p>[ ] 数据遍历</p></li><li><p>[ ] 撞库</p></li><li><p>[ ] ⽀付漏洞</p></li><li><p>[ ] 任意密码重置</p></li><li><p>[ ] 失效验证码</p><ul><li><p>[ ] 简单验证码（利⽤python图⽚识别出验证码内容）</p></li><li><p>[ ] 验证码可重复使用</p></li><li><p>[ ] 验证码遍历</p></li></ul></li><li><p>[ ] 短信轰炸</p></li><li><p>[ ] 越权</p></li><li><p>[ ] 甲⽅安全测试方法</p></li></ul></li><li><p>[ ] 敏感信息泄漏</p><ul><li><p>[ ] .git</p></li><li><p>[ ] .svn</p></li><li><p>[ ] 备份⽂件</p></li><li><p>[ ] 列⽬录</p></li><li><p>[ ] 注释信息</p></li><li><p>[ ] 默认账号/功能</p></li></ul></li></ul><h3 id="通用漏洞披露"><a href="#通用漏洞披露" class="headerlink" title="通用漏洞披露"></a>通用漏洞披露</h3><p>多收集工具，订阅漏洞信息</p><ul><li><p>[ ] <a href="https://www.cnvd.org.cn/">CNVD</a></p></li><li><p>[ ] <a href="https://cve.mitre.org/">CVE</a></p></li></ul><h3 id="漏扫工具"><a href="#漏扫工具" class="headerlink" title="漏扫工具"></a>漏扫工具</h3><ul><li><p>[ ] AWVS</p></li><li><p>[ ] APPSCAN</p></li><li><p>[ ] Nessus</p></li><li><p>[ ] Owasp ZAP</p></li><li><p>[ ] Xray</p></li><li><p>[ ] Pocsuite</p></li><li><p>[ ] Goby</p></li></ul><h2 id="后渗透"><a href="#后渗透" class="headerlink" title="后渗透"></a>后渗透</h2><h3 id="操作系统"><a href="#操作系统" class="headerlink" title="操作系统"></a>操作系统</h3><ul><li><p>[ ] 持久化</p><ul><li><p>[ ] 稳定通道</p><ul><li><p>[ ] C&amp;C</p></li><li><p>web</p><ul><li><p>[ ] 正向代理</p></li><li><p>[ ] 反向代理</p></li></ul></li></ul></li><li><p>Bypass</p><ul><li><p>杀毒</p><ul><li><p>360</p></li><li><p>火绒</p></li><li><p>卡巴斯基</p></li><li><p>工具</p><ul><li><p>[ ] iodine</p></li><li><p>[ ] Veil</p></li><li><p>[ ] <a href="https://github.com/EmpireProject/Empire">Empire</a></p></li><li><p>[ ] Nishang: PowerShell</p></li></ul></li></ul></li><li><p>权限</p><ul><li><p>[ ] 本地账户</p></li><li><p>[ ] 域账户</p></li><li><p>工具</p><ul><li><p>[ ] Metasploit Framework</p></li><li><p>[ ] Mimikatz</p></li></ul></li></ul></li></ul></li><li><p>工具</p><ul><li><p>[ ] Rootkit</p></li><li><p>[ ] Cobalt Strike</p></li><li><p>[ ] Webshell</p></li><li><p>[ ] Powersploit</p></li><li><p>[ ] Unicorn</p></li><li><p>[ ] Meterpreter</p></li><li><p>[ ] Empire</p></li></ul></li></ul></li><li><p>[ ] 信息收集</p><ul><li><p>[ ] 账户认证信息</p></li><li><p>[ ] 系统版本</p></li><li><p>[ ] 配置文件</p></li><li><p>[ ] 日志</p></li><li><p>[ ] 网络连接（寻找管理段地址，顺腾摸瓜）</p></li><li><p>[ ] 安全策略</p></li><li><p>[ ] 系统环境变量</p></li><li><p>[ ] 个人PC</p><ul><li><p>[ ] 浏览记录</p></li><li><p>[ ] 社交信息</p></li></ul></li></ul></li></ul><h3 id="内网"><a href="#内网" class="headerlink" title="内网"></a>内网</h3><ul><li><p>[ ] 信息收集</p><ul><li>[ ] 网络探测，部分工具参考信息收集部分</li></ul></li><li><p>[ ] 拓扑</p><ul><li><p>[ ] <a href="https://zhuanlan.zhihu.com/p/267710797">六种基本网络拓扑结构</a></p></li><li><p>[ ] <a href="https://worktile.com/kb/ask/8703.html">常见的网络拓扑结构是什么？</a></p></li></ul></li><li><p>横向移动</p><ul><li><p>普通</p></li><li><p>零信任</p></li><li><p>域</p><ul><li><p>[ ] <a href="https://cloud.tencent.com/developer/article/1144854">域控制器（1）之什么是域控</a></p></li><li><p>[ ] <a href="https://www.freebuf.com/articles/web/253705.html">域渗透基本概念</a></p></li><li><p>[ ] Mimikatz</p></li></ul></li></ul></li></ul><h3 id="虚拟化"><a href="#虚拟化" class="headerlink" title="虚拟化"></a>虚拟化</h3><ul><li><p>[ ] 容器</p></li><li><p>[ ] 云</p></li></ul><h2 id="社会工程"><a href="#社会工程" class="headerlink" title="社会工程"></a>社会工程</h2><h3 id="书籍"><a href="#书籍" class="headerlink" title="书籍"></a>书籍</h3><ul><li><p>[ ] 社会工程 卷1 安全体系中的人性漏洞</p></li><li><p>[ ] 社会工程 卷2解读肢体语言</p></li><li><p>[ ] 社会工程 卷3 防范钓鱼欺诈</p></li></ul><h3 id="水坑攻击"><a href="#水坑攻击" class="headerlink" title="水坑攻击"></a>水坑攻击</h3><p>待补充</p><h3 id="供应链攻击"><a href="#供应链攻击" class="headerlink" title="供应链攻击"></a>供应链攻击</h3><p>待补充</p><h3 id="钓鱼"><a href="#钓鱼" class="headerlink" title="钓鱼"></a>钓鱼</h3><p>待补充</p><h3 id="工具-1"><a href="#工具-1" class="headerlink" title="工具"></a>工具</h3><ul><li><p><a href="https://github.com/trustedsec/social-engineer-toolkit">Social-Engineer Toolkit (SET)</a></p></li><li><p><a href="https://github.com/topics/phishing">https://github.com/topics/phishing</a></p></li><li><p><a href="https://github.com/topics/phishing-tool">https://github.com/topics/phishing-tool</a></p></li></ul><h2 id="综合靶场"><a href="#综合靶场" class="headerlink" title="综合靶场"></a>综合靶场</h2><p>同类型靶场打两个足以，不是非要都打一遍</p><ul><li><p>[ ] HackTheBox </p></li><li><p>[ ] VulnHub</p></li><li><p>[ ] TryHackMe </p></li><li><p>[ ] Metasploitable</p></li><li><p>[ ] PentesterLab</p></li><li><p>[ ] <a href="https://sourceforge.net/projects/hackxor/">hackxor</a></p></li><li><p>[ ] <a href="https://github.com/WebGoat/WebGoat">WebGoat</a></p></li><li><p>[ ] <a href="https://github.com/Hackademic/hackademic">hackademic</a></p></li><li><p>[ ] <a href="https://xss-game.appspot.com/">Google推出的Xss在线实验靶场</a></p></li><li><p>[ ] <a href="https://github.com/digininja/DVWA">DVWA</a></p></li><li><p>[ ] <a href="https://github.com/vulhub/vulhub">vulhub</a></p></li><li><p>[ ] <a href="https://vulab.io/">vulab</a></p></li></ul><h2 id="实战"><a href="#实战" class="headerlink" title="实战"></a>实战</h2><p>待补充，红蓝对抗月底前上线。</p><h2 id="书籍推荐"><a href="#书籍推荐" class="headerlink" title="书籍推荐"></a>书籍推荐</h2><p>选择喜欢的看，不是都要看一遍</p><ul><li><p>[ ] 《白帽子讲Web安全》</p></li><li><p>[ ] 《Web前端黑客技术揭秘》</p></li><li><p>[ ] 《Web应用安全权威指南》</p></li><li><p>[ ] 《黑客攻防技术宝典 Web实战篇》</p></li><li><p>[ ] 《白帽子讲网络安全》</p></li><li><p>[ ] 《Web渗透测试：实战指南》</p></li><li><p>[ ] 《Web安全攻防：漏洞剖析与防范》</p></li><li><p>[ ] 《OWASP权威指南》</p></li><li><p>[ ] 《Web安全深度剖析》</p></li><li><p>[ ] 《Web安全开发指南》</p></li><li><p>[ ] 《Metasploit渗透测试指南》</p></li><li><p>[ ] 《Web应用程序安全攻防》</p></li><li><p>[ ] 《黑客攻防技术宝典：Web实战篇》</p></li><li><p>[ ] 《白帽子讲Web安全》</p></li><li><p>[ ] 《互联网+安全：从入门到实践》</p></li><li><p>[ ] 《Kali Linux渗透测试实战》</p></li><li><p>[ ] 《Python渗透测试实战》</p></li><li><p>[ ] 《护网必备：网络安全入门与渗透测试实战》</p></li><li><p>[ ] 《黑客秘笈：渗透测试实战》</p></li><li><p>[ ] 《Web安全攻防之道》</p></li><li><p>[ ] 《企业安全渗透测试实战》</p></li><li><p>[ ] 《漏洞扫描与渗透测试：Web安全领域最佳实践》</p></li><li><p>[ ] 《渗透测试实战案例解析》</p></li><li><p>[ ] 《信息安全技术基础》</p></li><li><p>[ ] 《黑客攻防技术宝典：网络篇》</p></li><li><p>[ ] 《渗透测试实战详解》</p></li><li><p>[ ] 《黑客与计算机病毒防范攻略》</p></li><li><p>[ ] 《渗透测试实战指南》</p></li><li><p>[ ] 《Web渗透测试实战》</p></li><li><p>[ ] 《黑客与画家》</p></li></ul><h2 id="学习资源"><a href="#学习资源" class="headerlink" title="学习资源"></a>学习资源</h2><ul><li><a href="https://www.freebuf.com/">freebuf</a></li><li><a href="https://www.anquanke.com/">安全客</a></li><li><a href="https://xz.aliyun.com/">先知社区</a></li><li><a href="https://secself.com/">助安社区</a></li><li><a href="https://www.secpulse.com/">安全脉搏</a></li><li><a href="https://paper.seebug.org/">seebug</a></li><li>twitter</li><li><a href="https://www.hackerone.com/">HackerOne</a></li><li><a href="https://book.hacktricks.xyz/welcome/readme">hacktricks</a></li><li><a href="https://weibell.github.io/reverse-shell-generator/">https://weibell.github.io/reverse-shell-generator/</a></li><li><a href="https://github.com/0x00-0x00/ShellPop">https://github.com/0x00-0x00/ShellPop</a></li><li><a href="https://github.com/xct/xc/">https://github.com/xct/xc/</a></li><li><a href="https://github.com/Hack-with-Github/Awesome-Hacking">https://github.com/Hack-with-Github/Awesome-Hacking</a></li><li><a href="https://github.com/zer0yu/Awesome-CobaltStrike">https://github.com/zer0yu/Awesome-CobaltStrike</a></li><li><a href="https://github.com/alphaSeclab/awesome-rat">https://github.com/alphaSeclab/awesome-rat</a></li><li><a href="https://www.exploit-db.com/">https://www.exploit-db.com/</a></li><li><a href="https://github.com/fabacab/awesome-cybersecurity-blueteam">awesome-cybersecurity-blueteam</a>    </li><li><a href="https://www.hackingarticles.in/category/wireless-hacking/">https://www.hackingarticles.in/category/wireless-hacking/</a></li><li><a href="https://github.com/The-Art-of-Hacking/h4cker">https://github.com/The-Art-of-Hacking/h4cker</a></li></ul><h2 id="前置知识-1"><a href="#前置知识-1" class="headerlink" title="前置知识"></a>前置知识</h2><ul><li>[ ] 掌握操作系统使用</li><li>[ ] 熟练重装系统</li><li>[ ] 什么是web网站？<ul><li><a href="https://baike.baidu.com/item/web/150564">https://baike.baidu.com/item/web/150564</a></li></ul></li><li><p>[ ] HTML/CSS/JS</p><ul><li><p><a href="https://www.w3schools.com/">https://www.w3schools.com/</a></p></li><li><p><a href="https://developer.mozilla.org/zh-CN/docs/Web">https://developer.mozilla.org/zh-CN/docs/Web</a></p></li><li><p><a href="https://www.runoob.com/tags/ref-standardattributes.html">https://www.runoob.com/tags/ref-standardattributes.html</a></p></li></ul></li><li>[ ] Golang（未来趋势，良好的跨平台、优秀的多线程和网络处理）<ul><li><a href="https://www.bilibili.com/video/BV1vM411r7GW/">【坤哥力荐】4星期速成学会poc，摆脱脚本小子</a></li></ul></li><li>[ ] Python（社区庞大，入门简单，可以作为初学语言）<ul><li><a href="https://www.bilibili.com/video/BV1qW4y1a7fU">https://www.bilibili.com/video/BV1qW4y1a7fU</a></li></ul></li><li>[ ] Java（后端开发主流语言，通用漏洞发现几乎是最多的语言，学习难度大，不推荐）</li><li>[ ] 数据库（一种类型选择一个了解）<ul><li>Sql<ul><li>[ ] MySQL（推荐）</li><li>[ ] Oracle</li><li>[ ] MSSQL</li></ul></li><li>NoSql<ul><li>[ ] Redis（推荐）</li><li>[ ] MongoDB</li><li>[ ] ElasticSearch</li></ul></li></ul></li><li>[ ] Linux基础命令（日常操作、应急和搭建靶场）<ul><li><a href="http://linux-command.kit.secself.com/">Linux命令速查手册</a></li><li><a href="https://www.runoob.com/linux/linux-command-manual.html">Linux 命令大全</a></li></ul></li><li>[ ] Docker（了解原理，日常使用无障碍）<ul><li><a href="https://www.runoob.com/docker/docker-tutorial.html">Docker 教程</a></li><li><a href="https://github.com/docker/compose">Docker Compose </a></li></ul></li></ul><p>掌握一门后端编程语言，有编程基础后续学习更顺利。</p><h3 id="协议-1"><a href="#协议-1" class="headerlink" title="协议"></a>协议</h3><p>助安社区开源的基础速成，大部分基础协议都已整理完毕，点击 👉  <a href="http://security-base.book.secself.com/protocol/index.html">安全速学手册</a></p><ul><li><p>[ ] HTTP协议</p><ul><li><p><a href="https://developer.mozilla.org/zh-CN/docs/Web/HTTP">超文本传输协议（HTTP）</a></p></li><li><p><a href="https://www.runoob.com/http/http-tutorial.html">HTTP 教程</a></p></li></ul></li><li>[ ] ARP</li><li>[ ] DHCP</li><li>[ ] SMB</li><li>[ ] DNS</li><li>[ ] 代理</li><li>[ ] HTTP</li><li>[ ] Socks5</li><li>[ ] VPN</li><li>[ ] FTP</li><li>[ ] SSH</li></ul><p>…</p><h2 id="信息收集-1"><a href="#信息收集-1" class="headerlink" title="信息收集"></a>信息收集</h2><h3 id="网络-1"><a href="#网络-1" class="headerlink" title="网络"></a>网络</h3><ul><li><p>[ ] 子网掩码（B段、C段）</p><ul><li>[ ] <a href="https://www.zhihu.com/question/56895036">如何理解子网掩码？</a></li><li>[ ] 工具<ul><li>[ ] <a href="https://github.com/robertdavidgraham/masscan">Masascan</a></li><li>[ ] <a href="https://zmap.io/">Zmap</a><ul><li>[ ] <a href="https://github.com/zmap/zgrab2">zgrab2</a></li></ul></li><li>[ ] <a href="https://nmap.org">Nmap</a></li></ul></li></ul></li><li><p>[ ] ASN</p><ul><li><a href="https://www.cloudflare.com/zh-cn/learning/network-layer/what-is-an-autonomous-system/">什么是自治系统？| 什么是 ASN？</a></li><li><p>ASN 查询</p><ul><li><p><a href="https://hackertarget.com/as-ip-lookup/">https://hackertarget.com/as-ip-lookup/</a></p></li><li><p><a href="https://dnschecker.org/asn-whois-lookup.php">https://dnschecker.org/asn-whois-lookup.php</a></p></li></ul></li><li><p>工具</p><ul><li>[ ] <a href="https://github.com/owasp-amass/amass">Amass</a></li><li>[ ] <a href="https://zmap.io/">Zmap</a><ul><li>[ ] <a href="https://github.com/zmap/zcrypto">zcrypto</a></li></ul></li></ul></li></ul></li><li><p>[ ] IP反查域名</p><ul><li><a href="https://www.ipaddress.com/">https://www.ipaddress.com/</a></li></ul></li></ul><h3 id="域名-1"><a href="#域名-1" class="headerlink" title="域名"></a>域名</h3><ul><li>[ ] 子域名（A记录/AAAA记录（IPV6））</li><li>[ ] CNAME</li><li>[ ] 邮箱记录（MX）</li><li>[ ] TXT</li><li><p>[ ] 历史记录</p><ul><li><a href="https://securitytrails.com">https://securitytrails.com</a></li></ul></li><li><p>[ ] 工具</p><ul><li>[ ] Whois</li><li>[ ] <a href="https://github.com/owasp-amass/amass">Amass</a></li><li>[ ] <a href="https://github.com/yanxiu0614/subdomain3.git">subdomain3</a></li><li>[ ] <a href="https://github.com/resurrecting-open-source-projects/dnsmap">dnsmap</a></li><li>[ ] <a href="https://github.com/knownsec/ksubdomain.git">ksubdomain </a></li></ul></li></ul><h3 id="公开信息-1"><a href="#公开信息-1" class="headerlink" title="公开信息"></a>公开信息</h3><ul><li><p>[ ] 搜索引擎</p><ul><li>[ ] <a href="https://www.exploit-db.com/google-hacking-database">黑客常用的Google搜索语法</a></li></ul></li><li><p>[ ] 网络空间搜索引擎</p><ul><li><p>[ ] <a href="https://fofa.info/">FOFA</a></p></li><li><p>[ ] <a href="https://www.shodan.io/">Shadow</a></p></li><li><p>[ ] <a href="https://censys.io/">Censys</a></p></li><li><p>[ ] <a href="https://www.zoomeye.org/">ZoomEye</a></p></li></ul></li><li><p>[ ] 工商信息</p><ul><li><p>[ ] 证书</p></li><li><p>[ ] 邮箱</p></li><li><p>[ ] <a href="https://beian.miit.gov.cn/">ICP备案信息</a></p></li><li><p>[ ] 子公司</p></li><li><p>[ ] 集团</p></li><li><p>[ ] 合作商</p></li><li><p>[ ] 供应商</p></li></ul></li></ul><h3 id="HTTP-1"><a href="#HTTP-1" class="headerlink" title="HTTP"></a>HTTP</h3><ul><li>[ ] 网站目录</li></ul><h3 id="工具-2"><a href="#工具-2" class="headerlink" title="工具"></a>工具</h3><ul><li><p>[ ] <a href="https://www.maltego.com/">Maltego</a></p></li><li><p>[ ] <a href="https://github.com/Threezh1/JSFinder">JSFinder</a></p></li><li><p>[ ] <a href="https://github.com/shmilylty/OneForAll">OneForAll</a></p></li><li><p>[ ] <a href="https://github.com/topics/subdomain-scanner">subdomain-scanner</a></p></li></ul><h3 id="指纹-1"><a href="#指纹-1" class="headerlink" title="指纹"></a>指纹</h3><p>待补充</p><h2 id="漏洞挖掘-1"><a href="#漏洞挖掘-1" class="headerlink" title="漏洞挖掘"></a>漏洞挖掘</h2><h3 id="WEB漏洞（原理搞懂，靶场实践几次）-1"><a href="#WEB漏洞（原理搞懂，靶场实践几次）-1" class="headerlink" title="WEB漏洞（原理搞懂，靶场实践几次）"></a>WEB漏洞（原理搞懂，靶场实践几次）</h3><ul><li><p>[ ] Owasp 漏洞</p><ul><li><a href="https://owasp.org/Top10/zh_CN/">OWASP Top 10 2021 介紹 </a></li></ul></li><li><a href="http://www.owasp.org.cn/OWASP-CHINA/owasp-project/OWASP-TOP10-2021%E4%B8%AD%E6%96%87%E7%89%88V1.0%E5%8F%91%E5%B8%83.pdf">PDF中文下载地址</a></li><li>[ ] JSONP劫持</li><li>[ ] CRLF注入</li><li>[ ] 命令执行</li><li>[ ] 代码执行</li><li>[ ] XXE</li><li>[ ] CSRF</li><li>[ ] SSRF</li><li>[ ] DDOS</li><li>[ ] CRLF injection</li><li>[ ] 反序列化漏洞</li><li>[ ] 弱类型漏洞</li><li>[ ] 变量覆盖漏洞</li><li><p>[ ] Sql注入</p><ul><li><p>[ ] 类型</p><ul><li><p>[ ] 报错</p></li><li><p>[ ] 联合查询</p></li><li><p>[ ] 堆查询</p></li><li><p>[ ] 盲注</p></li></ul></li><li><p>[ ] 攻击利用</p><ul><li><p>[ ] 寻找注入点</p><ul><li><p>[ ] POST</p></li><li><p>[ ] GET</p></li><li><p>[ ] Cookie</p></li><li><p>[ ] Header</p></li></ul></li><li><p>[ ] 手工注入</p></li><li><p>[ ] DNSLog</p></li><li><p>[ ] 工具注入</p></li><li><p>[ ] GetShell</p></li><li><p>[ ] 绕过防御</p></li></ul></li><li><p>[ ] 预防修复</p><ul><li><p>[ ] 应用层</p></li><li><p>[ ] 网络层</p></li></ul></li></ul></li><li><p>[ ] 文件漏洞</p><ul><li><p>[ ] 文件上传漏洞</p><ul><li><p>[ ] 逻辑</p><ul><li><p>[ ] 黑白名单绕过</p></li><li><p>[ ] MIME绕过</p></li><li><p>[x] 后端校验缺失</p></li></ul></li><li><p>[ ] 通用漏洞</p><ul><li><p>[ ] 截断</p></li><li><p>[ ] 利用中间件漏洞绕过</p><ul><li><p>[ ] IIS 5.x/6.0</p></li><li><p>[ ] Nginx</p></li><li><p>[ ] apache</p></li></ul></li><li><p>[ ] 编辑器漏洞</p><ul><li><p>[ ] DotNetTextBox</p></li><li><p>[ ] fckeditor</p></li><li><p>[ ] eWebEditor</p></li><li><p>[ ] UEditor</p></li></ul></li><li><p>[ ] 文件头</p></li><li><p>[ ] .htaccess 绕过</p></li></ul></li></ul></li><li><p>[ ] 文件删除漏洞</p></li><li><p>[ ] 文件包含漏洞</p><ul><li><p>[ ] ⽂件远程包含</p></li><li><p>[ ] ⽂件本地包含</p></li></ul></li></ul></li><li><p>[ ] XSS</p><ul><li><p>[ ] 基础知识</p><ul><li><p>[ ] 反射型</p></li><li><p>[ ] 存储型</p></li><li><p>[ ] DOM型</p></li></ul></li><li><p>[ ] 攻击利用</p><ul><li><p>[ ] XSS盲打平台</p></li><li><p>[ ] DNSLog</p></li><li><p>[ ] 绕过防御</p><ul><li><p>[ ] 同源策略</p></li><li><p>[ ] CORS</p></li><li><p>[ ] httpOnly</p></li><li><p>[ ] CSP</p></li></ul></li><li><p>[ ] 缓冲区溢出GetShell</p></li></ul></li></ul></li><li><p>[ ] 逻辑漏洞</p><ul><li><p>[ ] 系统重装漏洞</p></li><li><p>[ ] 手机验证</p></li><li><p>[ ] 登入爆破</p></li></ul></li><li><p>[ ] 任意用户密码重置</p><ul><li><p>[ ] 越权</p><ul><li><p>[ ] 纵向</p></li><li><p>[ ] 横向</p></li></ul></li><li><p>[ ] 数据遍历</p></li><li><p>[ ] 撞库</p></li><li><p>[ ] ⽀付漏洞</p></li><li><p>[ ] 任意密码重置</p></li><li><p>[ ] 失效验证码</p><ul><li><p>[ ] 简单验证码（利⽤python图⽚识别出验证码内容）</p></li><li><p>[ ] 验证码可重复使用</p></li><li><p>[ ] 验证码遍历</p></li></ul></li><li><p>[ ] 短信轰炸</p></li><li><p>[ ] 越权</p></li><li><p>[ ] 甲⽅安全测试方法</p></li></ul></li><li><p>[ ] 敏感信息泄漏</p><ul><li><p>[ ] .git</p></li><li><p>[ ] .svn</p></li><li><p>[ ] 备份⽂件</p></li><li><p>[ ] 列⽬录</p></li><li><p>[ ] 注释信息</p></li><li><p>[ ] 默认账号/功能</p></li></ul></li></ul><h3 id="通用漏洞披露-1"><a href="#通用漏洞披露-1" class="headerlink" title="通用漏洞披露"></a>通用漏洞披露</h3><p>多收集工具，订阅漏洞信息</p><ul><li><p>[ ] <a href="https://www.cnvd.org.cn/">CNVD</a></p></li><li><p>[ ] <a href="https://cve.mitre.org/">CVE</a></p></li></ul><h3 id="漏扫工具-1"><a href="#漏扫工具-1" class="headerlink" title="漏扫工具"></a>漏扫工具</h3><ul><li><p>[ ] AWVS</p></li><li><p>[ ] APPSCAN</p></li><li><p>[ ] Nessus</p></li><li><p>[ ] Owasp ZAP</p></li><li><p>[ ] Xray</p></li><li><p>[ ] Pocsuite</p></li><li><p>[ ] Goby</p></li></ul><h2 id="后渗透-1"><a href="#后渗透-1" class="headerlink" title="后渗透"></a>后渗透</h2><h3 id="操作系统-1"><a href="#操作系统-1" class="headerlink" title="操作系统"></a>操作系统</h3><ul><li><p>[ ] 持久化</p><ul><li><p>[ ] 稳定通道</p><ul><li><p>[ ] C&amp;C</p></li><li><p>web</p><ul><li><p>[ ] 正向代理</p></li><li><p>[ ] 反向代理</p></li></ul></li></ul></li><li><p>Bypass</p><ul><li><p>杀毒</p><ul><li><p>360</p></li><li><p>火绒</p></li><li><p>卡巴斯基</p></li><li><p>工具</p><ul><li><p>[ ] iodine</p></li><li><p>[ ] Veil</p></li><li><p>[ ] <a href="https://github.com/EmpireProject/Empire">Empire</a></p></li><li><p>[ ] Nishang: PowerShell</p></li></ul></li></ul></li><li><p>权限</p><ul><li><p>[ ] 本地账户</p></li><li><p>[ ] 域账户</p></li><li><p>工具</p><ul><li><p>[ ] Metasploit Framework</p></li><li><p>[ ] Mimikatz</p></li></ul></li></ul></li></ul></li><li><p>工具</p><ul><li><p>[ ] Rootkit</p></li><li><p>[ ] Cobalt Strike</p></li><li><p>[ ] Webshell</p></li><li><p>[ ] Powersploit</p></li><li><p>[ ] Unicorn</p></li><li><p>[ ] Meterpreter</p></li><li><p>[ ] Empire</p></li></ul></li></ul></li><li><p>[ ] 信息收集</p><ul><li><p>[ ] 账户认证信息</p></li><li><p>[ ] 系统版本</p></li><li><p>[ ] 配置文件</p></li><li><p>[ ] 日志</p></li><li><p>[ ] 网络连接（寻找管理段地址，顺腾摸瓜）</p></li><li><p>[ ] 安全策略</p></li><li><p>[ ] 系统环境变量</p></li><li><p>[ ] 个人PC</p><ul><li><p>[ ] 浏览记录</p></li><li><p>[ ] 社交信息</p></li></ul></li></ul></li></ul><h3 id="内网-1"><a href="#内网-1" class="headerlink" title="内网"></a>内网</h3><ul><li><p>[ ] 信息收集</p><ul><li>[ ] 网络探测，部分工具参考信息收集部分</li></ul></li><li><p>[ ] 拓扑</p><ul><li><p>[ ] <a href="https://zhuanlan.zhihu.com/p/267710797">六种基本网络拓扑结构</a></p></li><li><p>[ ] <a href="https://worktile.com/kb/ask/8703.html">常见的网络拓扑结构是什么？</a></p></li></ul></li><li><p>横向移动</p><ul><li><p>普通</p></li><li><p>零信任</p></li><li><p>域</p><ul><li><p>[ ] <a href="https://cloud.tencent.com/developer/article/1144854">域控制器（1）之什么是域控</a></p></li><li><p>[ ] <a href="https://www.freebuf.com/articles/web/253705.html">域渗透基本概念</a></p></li><li><p>[ ] Mimikatz</p></li></ul></li></ul></li></ul><h3 id="虚拟化-1"><a href="#虚拟化-1" class="headerlink" title="虚拟化"></a>虚拟化</h3><ul><li><p>[ ] 容器</p></li><li><p>[ ] 云</p></li></ul><h2 id="社会工程-1"><a href="#社会工程-1" class="headerlink" title="社会工程"></a>社会工程</h2><h3 id="书籍-1"><a href="#书籍-1" class="headerlink" title="书籍"></a>书籍</h3><ul><li><p>[ ] 社会工程 卷1 安全体系中的人性漏洞</p></li><li><p>[ ] 社会工程 卷2解读肢体语言</p></li><li><p>[ ] 社会工程 卷3 防范钓鱼欺诈</p></li></ul><h3 id="水坑攻击-1"><a href="#水坑攻击-1" class="headerlink" title="水坑攻击"></a>水坑攻击</h3><p>待补充</p><h3 id="供应链攻击-1"><a href="#供应链攻击-1" class="headerlink" title="供应链攻击"></a>供应链攻击</h3><p>待补充</p><h3 id="钓鱼-1"><a href="#钓鱼-1" class="headerlink" title="钓鱼"></a>钓鱼</h3><p>待补充</p><h3 id="工具-3"><a href="#工具-3" class="headerlink" title="工具"></a>工具</h3><ul><li><p><a href="https://github.com/trustedsec/social-engineer-toolkit">Social-Engineer Toolkit (SET)</a></p></li><li><p><a href="https://github.com/topics/phishing">https://github.com/topics/phishing</a></p></li><li><p><a href="https://github.com/topics/phishing-tool">https://github.com/topics/phishing-tool</a></p></li></ul><h2 id="综合靶场-1"><a href="#综合靶场-1" class="headerlink" title="综合靶场"></a>综合靶场</h2><p>同类型靶场打两个足以，不是非要都打一遍</p><ul><li><p>[ ] HackTheBox </p></li><li><p>[ ] VulnHub</p></li><li><p>[ ] TryHackMe </p></li><li><p>[ ] Metasploitable</p></li><li><p>[ ] PentesterLab</p></li><li><p>[ ] <a href="https://sourceforge.net/projects/hackxor/">hackxor</a></p></li><li><p>[ ] <a href="https://github.com/WebGoat/WebGoat">WebGoat</a></p></li><li><p>[ ] <a href="https://github.com/Hackademic/hackademic">hackademic</a></p></li><li><p>[ ] <a href="https://xss-game.appspot.com/">Google推出的Xss在线实验靶场</a></p></li><li><p>[ ] <a href="https://github.com/digininja/DVWA">DVWA</a></p></li><li><p>[ ] <a href="https://github.com/vulhub/vulhub">vulhub</a></p></li><li><p>[ ] <a href="https://vulab.io/">vulab</a></p></li></ul><h2 id="实战-1"><a href="#实战-1" class="headerlink" title="实战"></a>实战</h2><p>待补充，红蓝对抗月底前上线。</p><h2 id="书籍推荐-1"><a href="#书籍推荐-1" class="headerlink" title="书籍推荐"></a>书籍推荐</h2><p>选择喜欢的看，不是都要看一遍</p><ul><li><p>[ ] 《白帽子讲Web安全》</p></li><li><p>[ ] 《Web前端黑客技术揭秘》</p></li><li><p>[ ] 《Web应用安全权威指南》</p></li><li><p>[ ] 《黑客攻防技术宝典 Web实战篇》</p></li><li><p>[ ] 《白帽子讲网络安全》</p></li><li><p>[ ] 《Web渗透测试：实战指南》</p></li><li><p>[ ] 《Web安全攻防：漏洞剖析与防范》</p></li><li><p>[ ] 《OWASP权威指南》</p></li><li><p>[ ] 《Web安全深度剖析》</p></li><li><p>[ ] 《Web安全开发指南》</p></li><li><p>[ ] 《Metasploit渗透测试指南》</p></li><li><p>[ ] 《Web应用程序安全攻防》</p></li><li><p>[ ] 《黑客攻防技术宝典：Web实战篇》</p></li><li><p>[ ] 《白帽子讲Web安全》</p></li><li><p>[ ] 《互联网+安全：从入门到实践》</p></li><li><p>[ ] 《Kali Linux渗透测试实战》</p></li><li><p>[ ] 《Python渗透测试实战》</p></li><li><p>[ ] 《护网必备：网络安全入门与渗透测试实战》</p></li><li><p>[ ] 《黑客秘笈：渗透测试实战》</p></li><li><p>[ ] 《Web安全攻防之道》</p></li><li><p>[ ] 《企业安全渗透测试实战》</p></li><li><p>[ ] 《漏洞扫描与渗透测试：Web安全领域最佳实践》</p></li><li><p>[ ] 《渗透测试实战案例解析》</p></li><li><p>[ ] 《信息安全技术基础》</p></li><li><p>[ ] 《黑客攻防技术宝典：网络篇》</p></li><li><p>[ ] 《渗透测试实战详解》</p></li><li><p>[ ] 《黑客与计算机病毒防范攻略》</p></li><li><p>[ ] 《渗透测试实战指南》</p></li><li><p>[ ] 《Web渗透测试实战》</p></li><li><p>[ ] 《黑客与画家》</p></li></ul><h2 id="学习资源-1"><a href="#学习资源-1" class="headerlink" title="学习资源"></a>学习资源</h2><ul><li><a href="https://www.freebuf.com/">freebuf</a></li><li><a href="https://www.anquanke.com/">安全客</a></li><li><a href="https://xz.aliyun.com/">先知社区</a></li><li><a href="https://secself.com/">助安社区</a></li><li><a href="https://www.secpulse.com/">安全脉搏</a></li><li><a href="https://paper.seebug.org/">seebug</a></li><li>twitter</li><li><a href="https://www.hackerone.com/">HackerOne</a></li><li><a href="https://book.hacktricks.xyz/welcome/readme">hacktricks</a></li><li><a href="https://weibell.github.io/reverse-shell-generator/">https://weibell.github.io/reverse-shell-generator/</a></li><li><a href="https://github.com/0x00-0x00/ShellPop">https://github.com/0x00-0x00/ShellPop</a></li><li><a href="https://github.com/xct/xc/">https://github.com/xct/xc/</a></li><li><a href="https://github.com/Hack-with-Github/Awesome-Hacking">https://github.com/Hack-with-Github/Awesome-Hacking</a></li><li><a href="https://github.com/zer0yu/Awesome-CobaltStrike">https://github.com/zer0yu/Awesome-CobaltStrike</a></li><li><a href="https://github.com/alphaSeclab/awesome-rat">https://github.com/alphaSeclab/awesome-rat</a></li><li><a href="https://www.exploit-db.com/">https://www.exploit-db.com/</a></li><li><a href="https://github.com/fabacab/awesome-cybersecurity-blueteam">awesome-cybersecurity-blueteam</a>    </li><li><a href="https://www.hackingarticles.in/category/wireless-hacking/">https://www.hackingarticles.in/category/wireless-hacking/</a></li><li><a href="https://github.com/The-Art-of-Hacking/h4cker">https://github.com/The-Art-of-Hacking/h4cker</a></li></ul><h2 id="前置知识-2"><a href="#前置知识-2" class="headerlink" title="前置知识"></a>前置知识</h2><ul><li>[ ] 掌握操作系统使用</li><li>[ ] 熟练重装系统</li><li>[ ] 什么是web网站？<ul><li><a href="https://baike.baidu.com/item/web/150564">https://baike.baidu.com/item/web/150564</a></li></ul></li><li><p>[ ] HTML/CSS/JS</p><ul><li><p><a href="https://www.w3schools.com/">https://www.w3schools.com/</a></p></li><li><p><a href="https://developer.mozilla.org/zh-CN/docs/Web">https://developer.mozilla.org/zh-CN/docs/Web</a></p></li><li><p><a href="https://www.runoob.com/tags/ref-standardattributes.html">https://www.runoob.com/tags/ref-standardattributes.html</a></p></li></ul></li><li>[ ] Golang（未来趋势，良好的跨平台、优秀的多线程和网络处理）<ul><li><a href="https://www.bilibili.com/video/BV1vM411r7GW/">【坤哥力荐】4星期速成学会poc，摆脱脚本小子</a></li></ul></li><li>[ ] Python（社区庞大，入门简单，可以作为初学语言）<ul><li><a href="https://www.bilibili.com/video/BV1qW4y1a7fU">https://www.bilibili.com/video/BV1qW4y1a7fU</a></li></ul></li><li>[ ] Java（后端开发主流语言，通用漏洞发现几乎是最多的语言，学习难度大，不推荐）</li><li>[ ] 数据库（一种类型选择一个了解）<ul><li>Sql<ul><li>[ ] MySQL（推荐）</li><li>[ ] Oracle</li><li>[ ] MSSQL</li></ul></li><li>NoSql<ul><li>[ ] Redis（推荐）</li><li>[ ] MongoDB</li><li>[ ] ElasticSearch</li></ul></li></ul></li><li>[ ] Linux基础命令（日常操作、应急和搭建靶场）<ul><li><a href="http://linux-command.kit.secself.com/">Linux命令速查手册</a></li><li><a href="https://www.runoob.com/linux/linux-command-manual.html">Linux 命令大全</a></li></ul></li><li>[ ] Docker（了解原理，日常使用无障碍）<ul><li><a href="https://www.runoob.com/docker/docker-tutorial.html">Docker 教程</a></li><li><a href="https://github.com/docker/compose">Docker Compose </a></li></ul></li></ul><p>掌握一门后端编程语言，有编程基础后续学习更顺利。</p><h3 id="协议-2"><a href="#协议-2" class="headerlink" title="协议"></a>协议</h3><p>助安社区开源的基础速成，大部分基础协议都已整理完毕，点击 👉  <a href="http://security-base.book.secself.com/protocol/index.html">安全速学手册</a></p><ul><li><p>[ ] HTTP协议</p><ul><li><p><a href="https://developer.mozilla.org/zh-CN/docs/Web/HTTP">超文本传输协议（HTTP）</a></p></li><li><p><a href="https://www.runoob.com/http/http-tutorial.html">HTTP 教程</a></p></li></ul></li><li>[ ] ARP</li><li>[ ] DHCP</li><li>[ ] SMB</li><li>[ ] DNS</li><li>[ ] 代理</li><li>[ ] HTTP</li><li>[ ] Socks5</li><li>[ ] VPN</li><li>[ ] FTP</li><li>[ ] SSH</li></ul><p>…</p><h2 id="信息收集-2"><a href="#信息收集-2" class="headerlink" title="信息收集"></a>信息收集</h2><h3 id="网络-2"><a href="#网络-2" class="headerlink" title="网络"></a>网络</h3><ul><li><p>[ ] 子网掩码（B段、C段）</p><ul><li>[ ] <a href="https://www.zhihu.com/question/56895036">如何理解子网掩码？</a></li><li>[ ] 工具<ul><li>[ ] <a href="https://github.com/robertdavidgraham/masscan">Masascan</a></li><li>[ ] <a href="https://zmap.io/">Zmap</a><ul><li>[ ] <a href="https://github.com/zmap/zgrab2">zgrab2</a></li></ul></li><li>[ ] <a href="https://nmap.org">Nmap</a></li></ul></li></ul></li><li><p>[ ] ASN</p><ul><li><a href="https://www.cloudflare.com/zh-cn/learning/network-layer/what-is-an-autonomous-system/">什么是自治系统？| 什么是 ASN？</a></li><li><p>ASN 查询</p><ul><li><p><a href="https://hackertarget.com/as-ip-lookup/">https://hackertarget.com/as-ip-lookup/</a></p></li><li><p><a href="https://dnschecker.org/asn-whois-lookup.php">https://dnschecker.org/asn-whois-lookup.php</a></p></li></ul></li><li><p>工具</p><ul><li>[ ] <a href="https://github.com/owasp-amass/amass">Amass</a></li><li>[ ] <a href="https://zmap.io/">Zmap</a><ul><li>[ ] <a href="https://github.com/zmap/zcrypto">zcrypto</a></li></ul></li></ul></li></ul></li><li><p>[ ] IP反查域名</p><ul><li><a href="https://www.ipaddress.com/">https://www.ipaddress.com/</a></li></ul></li></ul><h3 id="域名-2"><a href="#域名-2" class="headerlink" title="域名"></a>域名</h3><ul><li>[ ] 子域名（A记录/AAAA记录（IPV6））</li><li>[ ] CNAME</li><li>[ ] 邮箱记录（MX）</li><li>[ ] TXT</li><li><p>[ ] 历史记录</p><ul><li><a href="https://securitytrails.com">https://securitytrails.com</a></li></ul></li><li><p>[ ] 工具</p><ul><li>[ ] Whois</li><li>[ ] <a href="https://github.com/owasp-amass/amass">Amass</a></li><li>[ ] <a href="https://github.com/yanxiu0614/subdomain3.git">subdomain3</a></li><li>[ ] <a href="https://github.com/resurrecting-open-source-projects/dnsmap">dnsmap</a></li><li>[ ] <a href="https://github.com/knownsec/ksubdomain.git">ksubdomain </a></li></ul></li></ul><h3 id="公开信息-2"><a href="#公开信息-2" class="headerlink" title="公开信息"></a>公开信息</h3><ul><li><p>[ ] 搜索引擎</p><ul><li>[ ] <a href="https://www.exploit-db.com/google-hacking-database">黑客常用的Google搜索语法</a></li></ul></li><li><p>[ ] 网络空间搜索引擎</p><ul><li><p>[ ] <a href="https://fofa.info/">FOFA</a></p></li><li><p>[ ] <a href="https://www.shodan.io/">Shadow</a></p></li><li><p>[ ] <a href="https://censys.io/">Censys</a></p></li><li><p>[ ] <a href="https://www.zoomeye.org/">ZoomEye</a></p></li></ul></li><li><p>[ ] 工商信息</p><ul><li><p>[ ] 证书</p></li><li><p>[ ] 邮箱</p></li><li><p>[ ] <a href="https://beian.miit.gov.cn/">ICP备案信息</a></p></li><li><p>[ ] 子公司</p></li><li><p>[ ] 集团</p></li><li><p>[ ] 合作商</p></li><li><p>[ ] 供应商</p></li></ul></li></ul><h3 id="HTTP-2"><a href="#HTTP-2" class="headerlink" title="HTTP"></a>HTTP</h3><ul><li>[ ] 网站目录</li></ul><h3 id="工具-4"><a href="#工具-4" class="headerlink" title="工具"></a>工具</h3><ul><li><p>[ ] <a href="https://www.maltego.com/">Maltego</a></p></li><li><p>[ ] <a href="https://github.com/Threezh1/JSFinder">JSFinder</a></p></li><li><p>[ ] <a href="https://github.com/shmilylty/OneForAll">OneForAll</a></p></li><li><p>[ ] <a href="https://github.com/topics/subdomain-scanner">subdomain-scanner</a></p></li></ul><h3 id="指纹-2"><a href="#指纹-2" class="headerlink" title="指纹"></a>指纹</h3><p>待补充</p><h2 id="漏洞挖掘-2"><a href="#漏洞挖掘-2" class="headerlink" title="漏洞挖掘"></a>漏洞挖掘</h2><h3 id="WEB漏洞（原理搞懂，靶场实践几次）-2"><a href="#WEB漏洞（原理搞懂，靶场实践几次）-2" class="headerlink" title="WEB漏洞（原理搞懂，靶场实践几次）"></a>WEB漏洞（原理搞懂，靶场实践几次）</h3><ul><li><p>[ ] Owasp 漏洞</p><ul><li><a href="https://owasp.org/Top10/zh_CN/">OWASP Top 10 2021 介紹 </a></li></ul></li><li><a href="http://www.owasp.org.cn/OWASP-CHINA/owasp-project/OWASP-TOP10-2021%E4%B8%AD%E6%96%87%E7%89%88V1.0%E5%8F%91%E5%B8%83.pdf">PDF中文下载地址</a></li><li>[ ] JSONP劫持</li><li>[ ] CRLF注入</li><li>[ ] 命令执行</li><li>[ ] 代码执行</li><li>[ ] XXE</li><li>[ ] CSRF</li><li>[ ] SSRF</li><li>[ ] DDOS</li><li>[ ] CRLF injection</li><li>[ ] 反序列化漏洞</li><li>[ ] 弱类型漏洞</li><li>[ ] 变量覆盖漏洞</li><li><p>[ ] Sql注入</p><ul><li><p>[ ] 类型</p><ul><li><p>[ ] 报错</p></li><li><p>[ ] 联合查询</p></li><li><p>[ ] 堆查询</p></li><li><p>[ ] 盲注</p></li></ul></li><li><p>[ ] 攻击利用</p><ul><li><p>[ ] 寻找注入点</p><ul><li><p>[ ] POST</p></li><li><p>[ ] GET</p></li><li><p>[ ] Cookie</p></li><li><p>[ ] Header</p></li></ul></li><li><p>[ ] 手工注入</p></li><li><p>[ ] DNSLog</p></li><li><p>[ ] 工具注入</p></li><li><p>[ ] GetShell</p></li><li><p>[ ] 绕过防御</p></li></ul></li><li><p>[ ] 预防修复</p><ul><li><p>[ ] 应用层</p></li><li><p>[ ] 网络层</p></li></ul></li></ul></li><li><p>[ ] 文件漏洞</p><ul><li><p>[ ] 文件上传漏洞</p><ul><li><p>[ ] 逻辑</p><ul><li><p>[ ] 黑白名单绕过</p></li><li><p>[ ] MIME绕过</p></li><li><p>[x] 后端校验缺失</p></li></ul></li><li><p>[ ] 通用漏洞</p><ul><li><p>[ ] 截断</p></li><li><p>[ ] 利用中间件漏洞绕过</p><ul><li><p>[ ] IIS 5.x/6.0</p></li><li><p>[ ] Nginx</p></li><li><p>[ ] apache</p></li></ul></li><li><p>[ ] 编辑器漏洞</p><ul><li><p>[ ] DotNetTextBox</p></li><li><p>[ ] fckeditor</p></li><li><p>[ ] eWebEditor</p></li><li><p>[ ] UEditor</p></li></ul></li><li><p>[ ] 文件头</p></li><li><p>[ ] .htaccess 绕过</p></li></ul></li></ul></li><li><p>[ ] 文件删除漏洞</p></li><li><p>[ ] 文件包含漏洞</p><ul><li><p>[ ] ⽂件远程包含</p></li><li><p>[ ] ⽂件本地包含</p></li></ul></li></ul></li><li><p>[ ] XSS</p><ul><li><p>[ ] 基础知识</p><ul><li><p>[ ] 反射型</p></li><li><p>[ ] 存储型</p></li><li><p>[ ] DOM型</p></li></ul></li><li><p>[ ] 攻击利用</p><ul><li><p>[ ] XSS盲打平台</p></li><li><p>[ ] DNSLog</p></li><li><p>[ ] 绕过防御</p><ul><li><p>[ ] 同源策略</p></li><li><p>[ ] CORS</p></li><li><p>[ ] httpOnly</p></li><li><p>[ ] CSP</p></li></ul></li><li><p>[ ] 缓冲区溢出GetShell</p></li></ul></li></ul></li><li><p>[ ] 逻辑漏洞</p><ul><li><p>[ ] 系统重装漏洞</p></li><li><p>[ ] 手机验证</p></li><li><p>[ ] 登入爆破</p></li></ul></li><li><p>[ ] 任意用户密码重置</p><ul><li><p>[ ] 越权</p><ul><li><p>[ ] 纵向</p></li><li><p>[ ] 横向</p></li></ul></li><li><p>[ ] 数据遍历</p></li><li><p>[ ] 撞库</p></li><li><p>[ ] ⽀付漏洞</p></li><li><p>[ ] 任意密码重置</p></li><li><p>[ ] 失效验证码</p><ul><li><p>[ ] 简单验证码（利⽤python图⽚识别出验证码内容）</p></li><li><p>[ ] 验证码可重复使用</p></li><li><p>[ ] 验证码遍历</p></li></ul></li><li><p>[ ] 短信轰炸</p></li><li><p>[ ] 越权</p></li><li><p>[ ] 甲⽅安全测试方法</p></li></ul></li><li><p>[ ] 敏感信息泄漏</p><ul><li><p>[ ] .git</p></li><li><p>[ ] .svn</p></li><li><p>[ ] 备份⽂件</p></li><li><p>[ ] 列⽬录</p></li><li><p>[ ] 注释信息</p></li><li><p>[ ] 默认账号/功能</p></li></ul></li></ul><h3 id="通用漏洞披露-2"><a href="#通用漏洞披露-2" class="headerlink" title="通用漏洞披露"></a>通用漏洞披露</h3><p>多收集工具，订阅漏洞信息</p><ul><li><p>[ ] <a href="https://www.cnvd.org.cn/">CNVD</a></p></li><li><p>[ ] <a href="https://cve.mitre.org/">CVE</a></p></li></ul><h3 id="漏扫工具-2"><a href="#漏扫工具-2" class="headerlink" title="漏扫工具"></a>漏扫工具</h3><ul><li><p>[ ] AWVS</p></li><li><p>[ ] APPSCAN</p></li><li><p>[ ] Nessus</p></li><li><p>[ ] Owasp ZAP</p></li><li><p>[ ] Xray</p></li><li><p>[ ] Pocsuite</p></li><li><p>[ ] Goby</p></li></ul><h2 id="后渗透-2"><a href="#后渗透-2" class="headerlink" title="后渗透"></a>后渗透</h2><h3 id="操作系统-2"><a href="#操作系统-2" class="headerlink" title="操作系统"></a>操作系统</h3><ul><li><p>[ ] 持久化</p><ul><li><p>[ ] 稳定通道</p><ul><li><p>[ ] C&amp;C</p></li><li><p>web</p><ul><li><p>[ ] 正向代理</p></li><li><p>[ ] 反向代理</p></li></ul></li></ul></li><li><p>Bypass</p><ul><li><p>杀毒</p><ul><li><p>360</p></li><li><p>火绒</p></li><li><p>卡巴斯基</p></li><li><p>工具</p><ul><li><p>[ ] iodine</p></li><li><p>[ ] Veil</p></li><li><p>[ ] <a href="https://github.com/EmpireProject/Empire">Empire</a></p></li><li><p>[ ] Nishang: PowerShell</p></li></ul></li></ul></li><li><p>权限</p><ul><li><p>[ ] 本地账户</p></li><li><p>[ ] 域账户</p></li><li><p>工具</p><ul><li><p>[ ] Metasploit Framework</p></li><li><p>[ ] Mimikatz</p></li></ul></li></ul></li></ul></li><li><p>工具</p><ul><li><p>[ ] Rootkit</p></li><li><p>[ ] Cobalt Strike</p></li><li><p>[ ] Webshell</p></li><li><p>[ ] Powersploit</p></li><li><p>[ ] Unicorn</p></li><li><p>[ ] Meterpreter</p></li><li><p>[ ] Empire</p></li></ul></li></ul></li><li><p>[ ] 信息收集</p><ul><li><p>[ ] 账户认证信息</p></li><li><p>[ ] 系统版本</p></li><li><p>[ ] 配置文件</p></li><li><p>[ ] 日志</p></li><li><p>[ ] 网络连接（寻找管理段地址，顺腾摸瓜）</p></li><li><p>[ ] 安全策略</p></li><li><p>[ ] 系统环境变量</p></li><li><p>[ ] 个人PC</p><ul><li><p>[ ] 浏览记录</p></li><li><p>[ ] 社交信息</p></li></ul></li></ul></li></ul><h3 id="内网-2"><a href="#内网-2" class="headerlink" title="内网"></a>内网</h3><ul><li><p>[ ] 信息收集</p><ul><li>[ ] 网络探测，部分工具参考信息收集部分</li></ul></li><li><p>[ ] 拓扑</p><ul><li><p>[ ] <a href="https://zhuanlan.zhihu.com/p/267710797">六种基本网络拓扑结构</a></p></li><li><p>[ ] <a href="https://worktile.com/kb/ask/8703.html">常见的网络拓扑结构是什么？</a></p></li></ul></li><li><p>横向移动</p><ul><li><p>普通</p></li><li><p>零信任</p></li><li><p>域</p><ul><li><p>[ ] <a href="https://cloud.tencent.com/developer/article/1144854">域控制器（1）之什么是域控</a></p></li><li><p>[ ] <a href="https://www.freebuf.com/articles/web/253705.html">域渗透基本概念</a></p></li><li><p>[ ] Mimikatz</p></li></ul></li></ul></li></ul><h3 id="虚拟化-2"><a href="#虚拟化-2" class="headerlink" title="虚拟化"></a>虚拟化</h3><ul><li><p>[ ] 容器</p></li><li><p>[ ] 云</p></li></ul><h2 id="社会工程-2"><a href="#社会工程-2" class="headerlink" title="社会工程"></a>社会工程</h2><h3 id="书籍-2"><a href="#书籍-2" class="headerlink" title="书籍"></a>书籍</h3><ul><li><p>[ ] 社会工程 卷1 安全体系中的人性漏洞</p></li><li><p>[ ] 社会工程 卷2解读肢体语言</p></li><li><p>[ ] 社会工程 卷3 防范钓鱼欺诈</p></li></ul><h3 id="水坑攻击-2"><a href="#水坑攻击-2" class="headerlink" title="水坑攻击"></a>水坑攻击</h3><p>待补充</p><h3 id="供应链攻击-2"><a href="#供应链攻击-2" class="headerlink" title="供应链攻击"></a>供应链攻击</h3><p>待补充</p><h3 id="钓鱼-2"><a href="#钓鱼-2" class="headerlink" title="钓鱼"></a>钓鱼</h3><p>待补充</p><h3 id="工具-5"><a href="#工具-5" class="headerlink" title="工具"></a>工具</h3><ul><li><p><a href="https://github.com/trustedsec/social-engineer-toolkit">Social-Engineer Toolkit (SET)</a></p></li><li><p><a href="https://github.com/topics/phishing">https://github.com/topics/phishing</a></p></li><li><p><a href="https://github.com/topics/phishing-tool">https://github.com/topics/phishing-tool</a></p></li></ul><h2 id="综合靶场-2"><a href="#综合靶场-2" class="headerlink" title="综合靶场"></a>综合靶场</h2><p>同类型靶场打两个足以，不是非要都打一遍</p><ul><li><p>[ ] HackTheBox </p></li><li><p>[ ] VulnHub</p></li><li><p>[ ] TryHackMe </p></li><li><p>[ ] Metasploitable</p></li><li><p>[ ] PentesterLab</p></li><li><p>[ ] <a href="https://sourceforge.net/projects/hackxor/">hackxor</a></p></li><li><p>[ ] <a href="https://github.com/WebGoat/WebGoat">WebGoat</a></p></li><li><p>[ ] <a href="https://github.com/Hackademic/hackademic">hackademic</a></p></li><li><p>[ ] <a href="https://xss-game.appspot.com/">Google推出的Xss在线实验靶场</a></p></li><li><p>[ ] <a href="https://github.com/digininja/DVWA">DVWA</a></p></li><li><p>[ ] <a href="https://github.com/vulhub/vulhub">vulhub</a></p></li><li><p>[ ] <a href="https://vulab.io/">vulab</a></p></li></ul><h2 id="实战-2"><a href="#实战-2" class="headerlink" title="实战"></a>实战</h2><p>待补充，红蓝对抗月底前上线。</p><h2 id="书籍推荐-2"><a href="#书籍推荐-2" class="headerlink" title="书籍推荐"></a>书籍推荐</h2><p>选择喜欢的看，不是都要看一遍</p><ul><li><p>[ ] 《白帽子讲Web安全》</p></li><li><p>[ ] 《Web前端黑客技术揭秘》</p></li><li><p>[ ] 《Web应用安全权威指南》</p></li><li><p>[ ] 《黑客攻防技术宝典 Web实战篇》</p></li><li><p>[ ] 《白帽子讲网络安全》</p></li><li><p>[ ] 《Web渗透测试：实战指南》</p></li><li><p>[ ] 《Web安全攻防：漏洞剖析与防范》</p></li><li><p>[ ] 《OWASP权威指南》</p></li><li><p>[ ] 《Web安全深度剖析》</p></li><li><p>[ ] 《Web安全开发指南》</p></li><li><p>[ ] 《Metasploit渗透测试指南》</p></li><li><p>[ ] 《Web应用程序安全攻防》</p></li><li><p>[ ] 《黑客攻防技术宝典：Web实战篇》</p></li><li><p>[ ] 《白帽子讲Web安全》</p></li><li><p>[ ] 《互联网+安全：从入门到实践》</p></li><li><p>[ ] 《Kali Linux渗透测试实战》</p></li><li><p>[ ] 《Python渗透测试实战》</p></li><li><p>[ ] 《护网必备：网络安全入门与渗透测试实战》</p></li><li><p>[ ] 《黑客秘笈：渗透测试实战》</p></li><li><p>[ ] 《Web安全攻防之道》</p></li><li><p>[ ] 《企业安全渗透测试实战》</p></li><li><p>[ ] 《漏洞扫描与渗透测试：Web安全领域最佳实践》</p></li><li><p>[ ] 《渗透测试实战案例解析》</p></li><li><p>[ ] 《信息安全技术基础》</p></li><li><p>[ ] 《黑客攻防技术宝典：网络篇》</p></li><li><p>[ ] 《渗透测试实战详解》</p></li><li><p>[ ] 《黑客与计算机病毒防范攻略》</p></li><li><p>[ ] 《渗透测试实战指南》</p></li><li><p>[ ] 《Web渗透测试实战》</p></li><li><p>[ ] 《黑客与画家》</p></li></ul><h2 id="学习资源-2"><a href="#学习资源-2" class="headerlink" title="学习资源"></a>学习资源</h2><ul><li><a href="https://www.freebuf.com/">freebuf</a></li><li><a href="https://www.anquanke.com/">安全客</a></li><li><a href="https://xz.aliyun.com/">先知社区</a></li><li><a href="https://secself.com/">助安社区</a></li><li><a href="https://www.secpulse.com/">安全脉搏</a></li><li><a href="https://paper.seebug.org/">seebug</a></li><li>twitter</li><li><a href="https://www.hackerone.com/">HackerOne</a></li><li><a href="https://book.hacktricks.xyz/welcome/readme">hacktricks</a></li><li><a href="https://weibell.github.io/reverse-shell-generator/">https://weibell.github.io/reverse-shell-generator/</a></li><li><a href="https://github.com/0x00-0x00/ShellPop">https://github.com/0x00-0x00/ShellPop</a></li><li><a href="https://github.com/xct/xc/">https://github.com/xct/xc/</a></li><li><a href="https://github.com/Hack-with-Github/Awesome-Hacking">https://github.com/Hack-with-Github/Awesome-Hacking</a></li><li><a href="https://github.com/zer0yu/Awesome-CobaltStrike">https://github.com/zer0yu/Awesome-CobaltStrike</a></li><li><a href="https://github.com/alphaSeclab/awesome-rat">https://github.com/alphaSeclab/awesome-rat</a></li><li><a href="https://www.exploit-db.com/">https://www.exploit-db.com/</a></li><li><a href="https://github.com/fabacab/awesome-cybersecurity-blueteam">awesome-cybersecurity-blueteam</a>    </li><li><a href="https://www.hackingarticles.in/category/wireless-hacking/">https://www.hackingarticles.in/category/wireless-hacking/</a></li><li><a href="https://github.com/The-Art-of-Hacking/h4cker">https://github.com/The-Art-of-Hacking/h4cker</a></li></ul>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="//Hello.html"/>
-      <url>//Hello.html</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-  
-  
+<search>
+  <entry>
+    <title>index</title>
+    <url>//guidance.html</url>
+    <content><![CDATA[<h2 id="前置知识"><a href="#前置知识" class="headerlink" title="前置知识"></a>前置知识</h2><p>这里引用变量<script type="math/tex">a_i</script></p>
+<script type="math/tex; mode=display">\sigma = x_1 + y_1</script><ul>
+<li>[ ] 掌握操作系统使用</li>
+<li>[ ] 熟练重装系统</li>
+<li>[ ] 什么是web网站？<ul>
+<li><a href="https://baike.baidu.com/item/web/150564">https://baike.baidu.com/item/web/150564</a></li>
+</ul>
+</li>
+<li><p>[ ] HTML/CSS/JS</p>
+<ul>
+<li><p><a href="https://www.w3schools.com/">https://www.w3schools.com/</a></p>
+</li>
+<li><p><a href="https://developer.mozilla.org/zh-CN/docs/Web">https://developer.mozilla.org/zh-CN/docs/Web</a></p>
+</li>
+<li><p><a href="https://www.runoob.com/tags/ref-standardattributes.html">https://www.runoob.com/tags/ref-standardattributes.html</a></p>
+</li>
+</ul>
+</li>
+<li>[ ] Golang（未来趋势，良好的跨平台、优秀的多线程和网络处理）<ul>
+<li><a href="https://www.bilibili.com/video/BV1vM411r7GW/">【坤哥力荐】4星期速成学会poc，摆脱脚本小子</a></li>
+</ul>
+</li>
+<li>[ ] Python（社区庞大，入门简单，可以作为初学语言）<ul>
+<li><a href="https://www.bilibili.com/video/BV1qW4y1a7fU">https://www.bilibili.com/video/BV1qW4y1a7fU</a></li>
+</ul>
+</li>
+<li>[ ] Java（后端开发主流语言，通用漏洞发现几乎是最多的语言，学习难度大，不推荐）</li>
+<li>[ ] 数据库（一种类型选择一个了解）<ul>
+<li>Sql<ul>
+<li>[ ] MySQL（推荐）</li>
+<li>[ ] Oracle</li>
+<li>[ ] MSSQL</li>
+</ul>
+</li>
+<li>NoSql<ul>
+<li>[ ] Redis（推荐）</li>
+<li>[ ] MongoDB</li>
+<li>[ ] ElasticSearch</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>[ ] Linux基础命令（日常操作、应急和搭建靶场）<ul>
+<li><a href="http://linux-command.kit.secself.com/">Linux命令速查手册</a></li>
+<li><a href="https://www.runoob.com/linux/linux-command-manual.html">Linux 命令大全</a></li>
+</ul>
+</li>
+<li>[ ] Docker（了解原理，日常使用无障碍）<ul>
+<li><a href="https://www.runoob.com/docker/docker-tutorial.html">Docker 教程</a></li>
+<li><a href="https://github.com/docker/compose">Docker Compose </a></li>
+</ul>
+</li>
+</ul>
+<p>掌握一门后端编程语言，有编程基础后续学习更顺利。</p>
+<h3 id="协议"><a href="#协议" class="headerlink" title="协议"></a>协议</h3><p>助安社区开源的基础速成，大部分基础协议都已整理完毕，点击 👉  <a href="http://security-base.book.secself.com/protocol/index.html">安全速学手册</a></p>
+<ul>
+<li><p>[ ] HTTP协议</p>
+<ul>
+<li><p><a href="https://developer.mozilla.org/zh-CN/docs/Web/HTTP">超文本传输协议（HTTP）</a></p>
+</li>
+<li><p><a href="https://www.runoob.com/http/http-tutorial.html">HTTP 教程</a></p>
+</li>
+</ul>
+</li>
+<li>[ ] ARP</li>
+<li>[ ] DHCP</li>
+<li>[ ] SMB</li>
+<li>[ ] DNS</li>
+<li>[ ] 代理</li>
+<li>[ ] HTTP</li>
+<li>[ ] Socks5</li>
+<li>[ ] VPN</li>
+<li>[ ] FTP</li>
+<li>[ ] SSH</li>
+</ul>
+<p>…</p>
+<h2 id="信息收集"><a href="#信息收集" class="headerlink" title="信息收集"></a>信息收集</h2><h3 id="网络"><a href="#网络" class="headerlink" title="网络"></a>网络</h3><ul>
+<li><p>[ ] 子网掩码（B段、C段）</p>
+<ul>
+<li>[ ] <a href="https://www.zhihu.com/question/56895036">如何理解子网掩码？</a></li>
+<li>[ ] 工具<ul>
+<li>[ ] <a href="https://github.com/robertdavidgraham/masscan">Masascan</a></li>
+<li>[ ] <a href="https://zmap.io/">Zmap</a><ul>
+<li>[ ] <a href="https://github.com/zmap/zgrab2">zgrab2</a></li>
+</ul>
+</li>
+<li>[ ] <a href="https://nmap.org">Nmap</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>[ ] ASN</p>
+<ul>
+<li><a href="https://www.cloudflare.com/zh-cn/learning/network-layer/what-is-an-autonomous-system/">什么是自治系统？| 什么是 ASN？</a></li>
+<li><p>ASN 查询</p>
+<ul>
+<li><p><a href="https://hackertarget.com/as-ip-lookup/">https://hackertarget.com/as-ip-lookup/</a></p>
+</li>
+<li><p><a href="https://dnschecker.org/asn-whois-lookup.php">https://dnschecker.org/asn-whois-lookup.php</a></p>
+</li>
+</ul>
+</li>
+<li><p>工具</p>
+<ul>
+<li>[ ] <a href="https://github.com/owasp-amass/amass">Amass</a></li>
+<li>[ ] <a href="https://zmap.io/">Zmap</a><ul>
+<li>[ ] <a href="https://github.com/zmap/zcrypto">zcrypto</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>[ ] IP反查域名</p>
+<ul>
+<li><a href="https://www.ipaddress.com/">https://www.ipaddress.com/</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="域名"><a href="#域名" class="headerlink" title="域名"></a>域名</h3><ul>
+<li>[ ] 子域名（A记录/AAAA记录（IPV6））</li>
+<li>[ ] CNAME</li>
+<li>[ ] 邮箱记录（MX）</li>
+<li>[ ] TXT</li>
+<li><p>[ ] 历史记录</p>
+<ul>
+<li><a href="https://securitytrails.com">https://securitytrails.com</a></li>
+</ul>
+</li>
+<li><p>[ ] 工具</p>
+<ul>
+<li>[ ] Whois</li>
+<li>[ ] <a href="https://github.com/owasp-amass/amass">Amass</a></li>
+<li>[ ] <a href="https://github.com/yanxiu0614/subdomain3.git">subdomain3</a></li>
+<li>[ ] <a href="https://github.com/resurrecting-open-source-projects/dnsmap">dnsmap</a></li>
+<li>[ ] <a href="https://github.com/knownsec/ksubdomain.git">ksubdomain </a></li>
+</ul>
+</li>
+</ul>
+<h3 id="公开信息"><a href="#公开信息" class="headerlink" title="公开信息"></a>公开信息</h3><ul>
+<li><p>[ ] 搜索引擎</p>
+<ul>
+<li>[ ] <a href="https://www.exploit-db.com/google-hacking-database">黑客常用的Google搜索语法</a></li>
+</ul>
+</li>
+<li><p>[ ] 网络空间搜索引擎</p>
+<ul>
+<li><p>[ ] <a href="https://fofa.info/">FOFA</a></p>
+</li>
+<li><p>[ ] <a href="https://www.shodan.io/">Shadow</a></p>
+</li>
+<li><p>[ ] <a href="https://censys.io/">Censys</a></p>
+</li>
+<li><p>[ ] <a href="https://www.zoomeye.org/">ZoomEye</a></p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 工商信息</p>
+<ul>
+<li><p>[ ] 证书</p>
+</li>
+<li><p>[ ] 邮箱</p>
+</li>
+<li><p>[ ] <a href="https://beian.miit.gov.cn/">ICP备案信息</a></p>
+</li>
+<li><p>[ ] 子公司</p>
+</li>
+<li><p>[ ] 集团</p>
+</li>
+<li><p>[ ] 合作商</p>
+</li>
+<li><p>[ ] 供应商</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="HTTP"><a href="#HTTP" class="headerlink" title="HTTP"></a>HTTP</h3><ul>
+<li>[ ] 网站目录</li>
+</ul>
+<h3 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h3><ul>
+<li><p>[ ] <a href="https://www.maltego.com/">Maltego</a></p>
+</li>
+<li><p>[ ] <a href="https://github.com/Threezh1/JSFinder">JSFinder</a></p>
+</li>
+<li><p>[ ] <a href="https://github.com/shmilylty/OneForAll">OneForAll</a></p>
+</li>
+<li><p>[ ] <a href="https://github.com/topics/subdomain-scanner">subdomain-scanner</a></p>
+</li>
+</ul>
+<h3 id="指纹"><a href="#指纹" class="headerlink" title="指纹"></a>指纹</h3><p>待补充</p>
+<h2 id="漏洞挖掘"><a href="#漏洞挖掘" class="headerlink" title="漏洞挖掘"></a>漏洞挖掘</h2><h3 id="WEB漏洞（原理搞懂，靶场实践几次）"><a href="#WEB漏洞（原理搞懂，靶场实践几次）" class="headerlink" title="WEB漏洞（原理搞懂，靶场实践几次）"></a>WEB漏洞（原理搞懂，靶场实践几次）</h3><ul>
+<li><p>[ ] Owasp 漏洞</p>
+<ul>
+<li><a href="https://owasp.org/Top10/zh_CN/">OWASP Top 10 2021 介紹 </a></li>
+</ul>
+</li>
+<li><a href="http://www.owasp.org.cn/OWASP-CHINA/owasp-project/OWASP-TOP10-2021%E4%B8%AD%E6%96%87%E7%89%88V1.0%E5%8F%91%E5%B8%83.pdf">PDF中文下载地址</a></li>
+<li>[ ] JSONP劫持</li>
+<li>[ ] CRLF注入</li>
+<li>[ ] 命令执行</li>
+<li>[ ] 代码执行</li>
+<li>[ ] XXE</li>
+<li>[ ] CSRF</li>
+<li>[ ] SSRF</li>
+<li>[ ] DDOS</li>
+<li>[ ] CRLF injection</li>
+<li>[ ] 反序列化漏洞</li>
+<li>[ ] 弱类型漏洞</li>
+<li>[ ] 变量覆盖漏洞</li>
+<li><p>[ ] Sql注入</p>
+<ul>
+<li><p>[ ] 类型</p>
+<ul>
+<li><p>[ ] 报错</p>
+</li>
+<li><p>[ ] 联合查询</p>
+</li>
+<li><p>[ ] 堆查询</p>
+</li>
+<li><p>[ ] 盲注</p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 攻击利用</p>
+<ul>
+<li><p>[ ] 寻找注入点</p>
+<ul>
+<li><p>[ ] POST</p>
+</li>
+<li><p>[ ] GET</p>
+</li>
+<li><p>[ ] Cookie</p>
+</li>
+<li><p>[ ] Header</p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 手工注入</p>
+</li>
+<li><p>[ ] DNSLog</p>
+</li>
+<li><p>[ ] 工具注入</p>
+</li>
+<li><p>[ ] GetShell</p>
+</li>
+<li><p>[ ] 绕过防御</p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 预防修复</p>
+<ul>
+<li><p>[ ] 应用层</p>
+</li>
+<li><p>[ ] 网络层</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>[ ] 文件漏洞</p>
+<ul>
+<li><p>[ ] 文件上传漏洞</p>
+<ul>
+<li><p>[ ] 逻辑</p>
+<ul>
+<li><p>[ ] 黑白名单绕过</p>
+</li>
+<li><p>[ ] MIME绕过</p>
+</li>
+<li><p>[x] 后端校验缺失</p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 通用漏洞</p>
+<ul>
+<li><p>[ ] 截断</p>
+</li>
+<li><p>[ ] 利用中间件漏洞绕过</p>
+<ul>
+<li><p>[ ] IIS 5.x/6.0</p>
+</li>
+<li><p>[ ] Nginx</p>
+</li>
+<li><p>[ ] apache</p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 编辑器漏洞</p>
+<ul>
+<li><p>[ ] DotNetTextBox</p>
+</li>
+<li><p>[ ] fckeditor</p>
+</li>
+<li><p>[ ] eWebEditor</p>
+</li>
+<li><p>[ ] UEditor</p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 文件头</p>
+</li>
+<li><p>[ ] .htaccess 绕过</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>[ ] 文件删除漏洞</p>
+</li>
+<li><p>[ ] 文件包含漏洞</p>
+<ul>
+<li><p>[ ] ⽂件远程包含</p>
+</li>
+<li><p>[ ] ⽂件本地包含</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>[ ] XSS</p>
+<ul>
+<li><p>[ ] 基础知识</p>
+<ul>
+<li><p>[ ] 反射型</p>
+</li>
+<li><p>[ ] 存储型</p>
+</li>
+<li><p>[ ] DOM型</p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 攻击利用</p>
+<ul>
+<li><p>[ ] XSS盲打平台</p>
+</li>
+<li><p>[ ] DNSLog</p>
+</li>
+<li><p>[ ] 绕过防御</p>
+<ul>
+<li><p>[ ] 同源策略</p>
+</li>
+<li><p>[ ] CORS</p>
+</li>
+<li><p>[ ] httpOnly</p>
+</li>
+<li><p>[ ] CSP</p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 缓冲区溢出GetShell</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>[ ] 逻辑漏洞</p>
+<ul>
+<li><p>[ ] 系统重装漏洞</p>
+</li>
+<li><p>[ ] 手机验证</p>
+</li>
+<li><p>[ ] 登入爆破</p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 任意用户密码重置</p>
+<ul>
+<li><p>[ ] 越权</p>
+<ul>
+<li><p>[ ] 纵向</p>
+</li>
+<li><p>[ ] 横向</p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 数据遍历</p>
+</li>
+<li><p>[ ] 撞库</p>
+</li>
+<li><p>[ ] ⽀付漏洞</p>
+</li>
+<li><p>[ ] 任意密码重置</p>
+</li>
+<li><p>[ ] 失效验证码</p>
+<ul>
+<li><p>[ ] 简单验证码（利⽤python图⽚识别出验证码内容）</p>
+</li>
+<li><p>[ ] 验证码可重复使用</p>
+</li>
+<li><p>[ ] 验证码遍历</p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 短信轰炸</p>
+</li>
+<li><p>[ ] 越权</p>
+</li>
+<li><p>[ ] 甲⽅安全测试方法</p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 敏感信息泄漏</p>
+<ul>
+<li><p>[ ] .git</p>
+</li>
+<li><p>[ ] .svn</p>
+</li>
+<li><p>[ ] 备份⽂件</p>
+</li>
+<li><p>[ ] 列⽬录</p>
+</li>
+<li><p>[ ] 注释信息</p>
+</li>
+<li><p>[ ] 默认账号/功能</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="通用漏洞披露"><a href="#通用漏洞披露" class="headerlink" title="通用漏洞披露"></a>通用漏洞披露</h3><p>多收集工具，订阅漏洞信息</p>
+<ul>
+<li><p>[ ] <a href="https://www.cnvd.org.cn/">CNVD</a></p>
+</li>
+<li><p>[ ] <a href="https://cve.mitre.org/">CVE</a></p>
+</li>
+</ul>
+<h3 id="漏扫工具"><a href="#漏扫工具" class="headerlink" title="漏扫工具"></a>漏扫工具</h3><ul>
+<li><p>[ ] AWVS</p>
+</li>
+<li><p>[ ] APPSCAN</p>
+</li>
+<li><p>[ ] Nessus</p>
+</li>
+<li><p>[ ] Owasp ZAP</p>
+</li>
+<li><p>[ ] Xray</p>
+</li>
+<li><p>[ ] Pocsuite</p>
+</li>
+<li><p>[ ] Goby</p>
+</li>
+</ul>
+<h2 id="后渗透"><a href="#后渗透" class="headerlink" title="后渗透"></a>后渗透</h2><h3 id="操作系统"><a href="#操作系统" class="headerlink" title="操作系统"></a>操作系统</h3><ul>
+<li><p>[ ] 持久化</p>
+<ul>
+<li><p>[ ] 稳定通道</p>
+<ul>
+<li><p>[ ] C&amp;C</p>
+</li>
+<li><p>web</p>
+<ul>
+<li><p>[ ] 正向代理</p>
+</li>
+<li><p>[ ] 反向代理</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Bypass</p>
+<ul>
+<li><p>杀毒</p>
+<ul>
+<li><p>360</p>
+</li>
+<li><p>火绒</p>
+</li>
+<li><p>卡巴斯基</p>
+</li>
+<li><p>工具</p>
+<ul>
+<li><p>[ ] iodine</p>
+</li>
+<li><p>[ ] Veil</p>
+</li>
+<li><p>[ ] <a href="https://github.com/EmpireProject/Empire">Empire</a></p>
+</li>
+<li><p>[ ] Nishang: PowerShell</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>权限</p>
+<ul>
+<li><p>[ ] 本地账户</p>
+</li>
+<li><p>[ ] 域账户</p>
+</li>
+<li><p>工具</p>
+<ul>
+<li><p>[ ] Metasploit Framework</p>
+</li>
+<li><p>[ ] Mimikatz</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>工具</p>
+<ul>
+<li><p>[ ] Rootkit</p>
+</li>
+<li><p>[ ] Cobalt Strike</p>
+</li>
+<li><p>[ ] Webshell</p>
+</li>
+<li><p>[ ] Powersploit</p>
+</li>
+<li><p>[ ] Unicorn</p>
+</li>
+<li><p>[ ] Meterpreter</p>
+</li>
+<li><p>[ ] Empire</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>[ ] 信息收集</p>
+<ul>
+<li><p>[ ] 账户认证信息</p>
+</li>
+<li><p>[ ] 系统版本</p>
+</li>
+<li><p>[ ] 配置文件</p>
+</li>
+<li><p>[ ] 日志</p>
+</li>
+<li><p>[ ] 网络连接（寻找管理段地址，顺腾摸瓜）</p>
+</li>
+<li><p>[ ] 安全策略</p>
+</li>
+<li><p>[ ] 系统环境变量</p>
+</li>
+<li><p>[ ] 个人PC</p>
+<ul>
+<li><p>[ ] 浏览记录</p>
+</li>
+<li><p>[ ] 社交信息</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="内网"><a href="#内网" class="headerlink" title="内网"></a>内网</h3><ul>
+<li><p>[ ] 信息收集</p>
+<ul>
+<li>[ ] 网络探测，部分工具参考信息收集部分</li>
+</ul>
+</li>
+<li><p>[ ] 拓扑</p>
+<ul>
+<li><p>[ ] <a href="https://zhuanlan.zhihu.com/p/267710797">六种基本网络拓扑结构</a></p>
+</li>
+<li><p>[ ] <a href="https://worktile.com/kb/ask/8703.html">常见的网络拓扑结构是什么？</a></p>
+</li>
+</ul>
+</li>
+<li><p>横向移动</p>
+<ul>
+<li><p>普通</p>
+</li>
+<li><p>零信任</p>
+</li>
+<li><p>域</p>
+<ul>
+<li><p>[ ] <a href="https://cloud.tencent.com/developer/article/1144854">域控制器（1）之什么是域控</a></p>
+</li>
+<li><p>[ ] <a href="https://www.freebuf.com/articles/web/253705.html">域渗透基本概念</a></p>
+</li>
+<li><p>[ ] Mimikatz</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="虚拟化"><a href="#虚拟化" class="headerlink" title="虚拟化"></a>虚拟化</h3><ul>
+<li><p>[ ] 容器</p>
+</li>
+<li><p>[ ] 云</p>
+</li>
+</ul>
+<h2 id="社会工程"><a href="#社会工程" class="headerlink" title="社会工程"></a>社会工程</h2><h3 id="书籍"><a href="#书籍" class="headerlink" title="书籍"></a>书籍</h3><ul>
+<li><p>[ ] 社会工程 卷1 安全体系中的人性漏洞</p>
+</li>
+<li><p>[ ] 社会工程 卷2解读肢体语言</p>
+</li>
+<li><p>[ ] 社会工程 卷3 防范钓鱼欺诈</p>
+</li>
+</ul>
+<h3 id="水坑攻击"><a href="#水坑攻击" class="headerlink" title="水坑攻击"></a>水坑攻击</h3><p>待补充</p>
+<h3 id="供应链攻击"><a href="#供应链攻击" class="headerlink" title="供应链攻击"></a>供应链攻击</h3><p>待补充</p>
+<h3 id="钓鱼"><a href="#钓鱼" class="headerlink" title="钓鱼"></a>钓鱼</h3><p>待补充</p>
+<h3 id="工具-1"><a href="#工具-1" class="headerlink" title="工具"></a>工具</h3><ul>
+<li><p><a href="https://github.com/trustedsec/social-engineer-toolkit">Social-Engineer Toolkit (SET)</a></p>
+</li>
+<li><p><a href="https://github.com/topics/phishing">https://github.com/topics/phishing</a></p>
+</li>
+<li><p><a href="https://github.com/topics/phishing-tool">https://github.com/topics/phishing-tool</a></p>
+</li>
+</ul>
+<h2 id="综合靶场"><a href="#综合靶场" class="headerlink" title="综合靶场"></a>综合靶场</h2><p>同类型靶场打两个足以，不是非要都打一遍</p>
+<ul>
+<li><p>[ ] HackTheBox </p>
+</li>
+<li><p>[ ] VulnHub</p>
+</li>
+<li><p>[ ] TryHackMe </p>
+</li>
+<li><p>[ ] Metasploitable</p>
+</li>
+<li><p>[ ] PentesterLab</p>
+</li>
+<li><p>[ ] <a href="https://sourceforge.net/projects/hackxor/">hackxor</a></p>
+</li>
+<li><p>[ ] <a href="https://github.com/WebGoat/WebGoat">WebGoat</a></p>
+</li>
+<li><p>[ ] <a href="https://github.com/Hackademic/hackademic">hackademic</a></p>
+</li>
+<li><p>[ ] <a href="https://xss-game.appspot.com/">Google推出的Xss在线实验靶场</a></p>
+</li>
+<li><p>[ ] <a href="https://github.com/digininja/DVWA">DVWA</a></p>
+</li>
+<li><p>[ ] <a href="https://github.com/vulhub/vulhub">vulhub</a></p>
+</li>
+<li><p>[ ] <a href="https://vulab.io/">vulab</a></p>
+</li>
+</ul>
+<h2 id="实战"><a href="#实战" class="headerlink" title="实战"></a>实战</h2><p>待补充，红蓝对抗月底前上线。</p>
+<h2 id="书籍推荐"><a href="#书籍推荐" class="headerlink" title="书籍推荐"></a>书籍推荐</h2><p>选择喜欢的看，不是都要看一遍</p>
+<ul>
+<li><p>[ ] 《白帽子讲Web安全》</p>
+</li>
+<li><p>[ ] 《Web前端黑客技术揭秘》</p>
+</li>
+<li><p>[ ] 《Web应用安全权威指南》</p>
+</li>
+<li><p>[ ] 《黑客攻防技术宝典 Web实战篇》</p>
+</li>
+<li><p>[ ] 《白帽子讲网络安全》</p>
+</li>
+<li><p>[ ] 《Web渗透测试：实战指南》</p>
+</li>
+<li><p>[ ] 《Web安全攻防：漏洞剖析与防范》</p>
+</li>
+<li><p>[ ] 《OWASP权威指南》</p>
+</li>
+<li><p>[ ] 《Web安全深度剖析》</p>
+</li>
+<li><p>[ ] 《Web安全开发指南》</p>
+</li>
+<li><p>[ ] 《Metasploit渗透测试指南》</p>
+</li>
+<li><p>[ ] 《Web应用程序安全攻防》</p>
+</li>
+<li><p>[ ] 《黑客攻防技术宝典：Web实战篇》</p>
+</li>
+<li><p>[ ] 《白帽子讲Web安全》</p>
+</li>
+<li><p>[ ] 《互联网+安全：从入门到实践》</p>
+</li>
+<li><p>[ ] 《Kali Linux渗透测试实战》</p>
+</li>
+<li><p>[ ] 《Python渗透测试实战》</p>
+</li>
+<li><p>[ ] 《护网必备：网络安全入门与渗透测试实战》</p>
+</li>
+<li><p>[ ] 《黑客秘笈：渗透测试实战》</p>
+</li>
+<li><p>[ ] 《Web安全攻防之道》</p>
+</li>
+<li><p>[ ] 《企业安全渗透测试实战》</p>
+</li>
+<li><p>[ ] 《漏洞扫描与渗透测试：Web安全领域最佳实践》</p>
+</li>
+<li><p>[ ] 《渗透测试实战案例解析》</p>
+</li>
+<li><p>[ ] 《信息安全技术基础》</p>
+</li>
+<li><p>[ ] 《黑客攻防技术宝典：网络篇》</p>
+</li>
+<li><p>[ ] 《渗透测试实战详解》</p>
+</li>
+<li><p>[ ] 《黑客与计算机病毒防范攻略》</p>
+</li>
+<li><p>[ ] 《渗透测试实战指南》</p>
+</li>
+<li><p>[ ] 《Web渗透测试实战》</p>
+</li>
+<li><p>[ ] 《黑客与画家》</p>
+</li>
+</ul>
+<h2 id="学习资源"><a href="#学习资源" class="headerlink" title="学习资源"></a>学习资源</h2><ul>
+<li><a href="https://www.freebuf.com/">freebuf</a></li>
+<li><a href="https://www.anquanke.com/">安全客</a></li>
+<li><a href="https://xz.aliyun.com/">先知社区</a></li>
+<li><a href="https://secself.com/">助安社区</a></li>
+<li><a href="https://www.secpulse.com/">安全脉搏</a></li>
+<li><a href="https://paper.seebug.org/">seebug</a></li>
+<li>twitter</li>
+<li><a href="https://www.hackerone.com/">HackerOne</a></li>
+<li><a href="https://book.hacktricks.xyz/welcome/readme">hacktricks</a></li>
+<li><a href="https://weibell.github.io/reverse-shell-generator/">https://weibell.github.io/reverse-shell-generator/</a></li>
+<li><a href="https://github.com/0x00-0x00/ShellPop">https://github.com/0x00-0x00/ShellPop</a></li>
+<li><a href="https://github.com/xct/xc/">https://github.com/xct/xc/</a></li>
+<li><a href="https://github.com/Hack-with-Github/Awesome-Hacking">https://github.com/Hack-with-Github/Awesome-Hacking</a></li>
+<li><a href="https://github.com/zer0yu/Awesome-CobaltStrike">https://github.com/zer0yu/Awesome-CobaltStrike</a></li>
+<li><a href="https://github.com/alphaSeclab/awesome-rat">https://github.com/alphaSeclab/awesome-rat</a></li>
+<li><a href="https://www.exploit-db.com/">https://www.exploit-db.com/</a></li>
+<li><a href="https://github.com/fabacab/awesome-cybersecurity-blueteam">awesome-cybersecurity-blueteam</a>    </li>
+<li><a href="https://www.hackingarticles.in/category/wireless-hacking/">https://www.hackingarticles.in/category/wireless-hacking/</a></li>
+<li><a href="https://github.com/The-Art-of-Hacking/h4cker">https://github.com/The-Art-of-Hacking/h4cker</a></li>
+</ul>
+<h2 id="前置知识-1"><a href="#前置知识-1" class="headerlink" title="前置知识"></a>前置知识</h2><ul>
+<li>[ ] 掌握操作系统使用</li>
+<li>[ ] 熟练重装系统</li>
+<li>[ ] 什么是web网站？<ul>
+<li><a href="https://baike.baidu.com/item/web/150564">https://baike.baidu.com/item/web/150564</a></li>
+</ul>
+</li>
+<li><p>[ ] HTML/CSS/JS</p>
+<ul>
+<li><p><a href="https://www.w3schools.com/">https://www.w3schools.com/</a></p>
+</li>
+<li><p><a href="https://developer.mozilla.org/zh-CN/docs/Web">https://developer.mozilla.org/zh-CN/docs/Web</a></p>
+</li>
+<li><p><a href="https://www.runoob.com/tags/ref-standardattributes.html">https://www.runoob.com/tags/ref-standardattributes.html</a></p>
+</li>
+</ul>
+</li>
+<li>[ ] Golang（未来趋势，良好的跨平台、优秀的多线程和网络处理）<ul>
+<li><a href="https://www.bilibili.com/video/BV1vM411r7GW/">【坤哥力荐】4星期速成学会poc，摆脱脚本小子</a></li>
+</ul>
+</li>
+<li>[ ] Python（社区庞大，入门简单，可以作为初学语言）<ul>
+<li><a href="https://www.bilibili.com/video/BV1qW4y1a7fU">https://www.bilibili.com/video/BV1qW4y1a7fU</a></li>
+</ul>
+</li>
+<li>[ ] Java（后端开发主流语言，通用漏洞发现几乎是最多的语言，学习难度大，不推荐）</li>
+<li>[ ] 数据库（一种类型选择一个了解）<ul>
+<li>Sql<ul>
+<li>[ ] MySQL（推荐）</li>
+<li>[ ] Oracle</li>
+<li>[ ] MSSQL</li>
+</ul>
+</li>
+<li>NoSql<ul>
+<li>[ ] Redis（推荐）</li>
+<li>[ ] MongoDB</li>
+<li>[ ] ElasticSearch</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>[ ] Linux基础命令（日常操作、应急和搭建靶场）<ul>
+<li><a href="http://linux-command.kit.secself.com/">Linux命令速查手册</a></li>
+<li><a href="https://www.runoob.com/linux/linux-command-manual.html">Linux 命令大全</a></li>
+</ul>
+</li>
+<li>[ ] Docker（了解原理，日常使用无障碍）<ul>
+<li><a href="https://www.runoob.com/docker/docker-tutorial.html">Docker 教程</a></li>
+<li><a href="https://github.com/docker/compose">Docker Compose </a></li>
+</ul>
+</li>
+</ul>
+<p>掌握一门后端编程语言，有编程基础后续学习更顺利。</p>
+<h3 id="协议-1"><a href="#协议-1" class="headerlink" title="协议"></a>协议</h3><p>助安社区开源的基础速成，大部分基础协议都已整理完毕，点击 👉  <a href="http://security-base.book.secself.com/protocol/index.html">安全速学手册</a></p>
+<ul>
+<li><p>[ ] HTTP协议</p>
+<ul>
+<li><p><a href="https://developer.mozilla.org/zh-CN/docs/Web/HTTP">超文本传输协议（HTTP）</a></p>
+</li>
+<li><p><a href="https://www.runoob.com/http/http-tutorial.html">HTTP 教程</a></p>
+</li>
+</ul>
+</li>
+<li>[ ] ARP</li>
+<li>[ ] DHCP</li>
+<li>[ ] SMB</li>
+<li>[ ] DNS</li>
+<li>[ ] 代理</li>
+<li>[ ] HTTP</li>
+<li>[ ] Socks5</li>
+<li>[ ] VPN</li>
+<li>[ ] FTP</li>
+<li>[ ] SSH</li>
+</ul>
+<p>…</p>
+<h2 id="信息收集-1"><a href="#信息收集-1" class="headerlink" title="信息收集"></a>信息收集</h2><h3 id="网络-1"><a href="#网络-1" class="headerlink" title="网络"></a>网络</h3><ul>
+<li><p>[ ] 子网掩码（B段、C段）</p>
+<ul>
+<li>[ ] <a href="https://www.zhihu.com/question/56895036">如何理解子网掩码？</a></li>
+<li>[ ] 工具<ul>
+<li>[ ] <a href="https://github.com/robertdavidgraham/masscan">Masascan</a></li>
+<li>[ ] <a href="https://zmap.io/">Zmap</a><ul>
+<li>[ ] <a href="https://github.com/zmap/zgrab2">zgrab2</a></li>
+</ul>
+</li>
+<li>[ ] <a href="https://nmap.org">Nmap</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>[ ] ASN</p>
+<ul>
+<li><a href="https://www.cloudflare.com/zh-cn/learning/network-layer/what-is-an-autonomous-system/">什么是自治系统？| 什么是 ASN？</a></li>
+<li><p>ASN 查询</p>
+<ul>
+<li><p><a href="https://hackertarget.com/as-ip-lookup/">https://hackertarget.com/as-ip-lookup/</a></p>
+</li>
+<li><p><a href="https://dnschecker.org/asn-whois-lookup.php">https://dnschecker.org/asn-whois-lookup.php</a></p>
+</li>
+</ul>
+</li>
+<li><p>工具</p>
+<ul>
+<li>[ ] <a href="https://github.com/owasp-amass/amass">Amass</a></li>
+<li>[ ] <a href="https://zmap.io/">Zmap</a><ul>
+<li>[ ] <a href="https://github.com/zmap/zcrypto">zcrypto</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>[ ] IP反查域名</p>
+<ul>
+<li><a href="https://www.ipaddress.com/">https://www.ipaddress.com/</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="域名-1"><a href="#域名-1" class="headerlink" title="域名"></a>域名</h3><ul>
+<li>[ ] 子域名（A记录/AAAA记录（IPV6））</li>
+<li>[ ] CNAME</li>
+<li>[ ] 邮箱记录（MX）</li>
+<li>[ ] TXT</li>
+<li><p>[ ] 历史记录</p>
+<ul>
+<li><a href="https://securitytrails.com">https://securitytrails.com</a></li>
+</ul>
+</li>
+<li><p>[ ] 工具</p>
+<ul>
+<li>[ ] Whois</li>
+<li>[ ] <a href="https://github.com/owasp-amass/amass">Amass</a></li>
+<li>[ ] <a href="https://github.com/yanxiu0614/subdomain3.git">subdomain3</a></li>
+<li>[ ] <a href="https://github.com/resurrecting-open-source-projects/dnsmap">dnsmap</a></li>
+<li>[ ] <a href="https://github.com/knownsec/ksubdomain.git">ksubdomain </a></li>
+</ul>
+</li>
+</ul>
+<h3 id="公开信息-1"><a href="#公开信息-1" class="headerlink" title="公开信息"></a>公开信息</h3><ul>
+<li><p>[ ] 搜索引擎</p>
+<ul>
+<li>[ ] <a href="https://www.exploit-db.com/google-hacking-database">黑客常用的Google搜索语法</a></li>
+</ul>
+</li>
+<li><p>[ ] 网络空间搜索引擎</p>
+<ul>
+<li><p>[ ] <a href="https://fofa.info/">FOFA</a></p>
+</li>
+<li><p>[ ] <a href="https://www.shodan.io/">Shadow</a></p>
+</li>
+<li><p>[ ] <a href="https://censys.io/">Censys</a></p>
+</li>
+<li><p>[ ] <a href="https://www.zoomeye.org/">ZoomEye</a></p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 工商信息</p>
+<ul>
+<li><p>[ ] 证书</p>
+</li>
+<li><p>[ ] 邮箱</p>
+</li>
+<li><p>[ ] <a href="https://beian.miit.gov.cn/">ICP备案信息</a></p>
+</li>
+<li><p>[ ] 子公司</p>
+</li>
+<li><p>[ ] 集团</p>
+</li>
+<li><p>[ ] 合作商</p>
+</li>
+<li><p>[ ] 供应商</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="HTTP-1"><a href="#HTTP-1" class="headerlink" title="HTTP"></a>HTTP</h3><ul>
+<li>[ ] 网站目录</li>
+</ul>
+<h3 id="工具-2"><a href="#工具-2" class="headerlink" title="工具"></a>工具</h3><ul>
+<li><p>[ ] <a href="https://www.maltego.com/">Maltego</a></p>
+</li>
+<li><p>[ ] <a href="https://github.com/Threezh1/JSFinder">JSFinder</a></p>
+</li>
+<li><p>[ ] <a href="https://github.com/shmilylty/OneForAll">OneForAll</a></p>
+</li>
+<li><p>[ ] <a href="https://github.com/topics/subdomain-scanner">subdomain-scanner</a></p>
+</li>
+</ul>
+<h3 id="指纹-1"><a href="#指纹-1" class="headerlink" title="指纹"></a>指纹</h3><p>待补充</p>
+<h2 id="漏洞挖掘-1"><a href="#漏洞挖掘-1" class="headerlink" title="漏洞挖掘"></a>漏洞挖掘</h2><h3 id="WEB漏洞（原理搞懂，靶场实践几次）-1"><a href="#WEB漏洞（原理搞懂，靶场实践几次）-1" class="headerlink" title="WEB漏洞（原理搞懂，靶场实践几次）"></a>WEB漏洞（原理搞懂，靶场实践几次）</h3><ul>
+<li><p>[ ] Owasp 漏洞</p>
+<ul>
+<li><a href="https://owasp.org/Top10/zh_CN/">OWASP Top 10 2021 介紹 </a></li>
+</ul>
+</li>
+<li><a href="http://www.owasp.org.cn/OWASP-CHINA/owasp-project/OWASP-TOP10-2021%E4%B8%AD%E6%96%87%E7%89%88V1.0%E5%8F%91%E5%B8%83.pdf">PDF中文下载地址</a></li>
+<li>[ ] JSONP劫持</li>
+<li>[ ] CRLF注入</li>
+<li>[ ] 命令执行</li>
+<li>[ ] 代码执行</li>
+<li>[ ] XXE</li>
+<li>[ ] CSRF</li>
+<li>[ ] SSRF</li>
+<li>[ ] DDOS</li>
+<li>[ ] CRLF injection</li>
+<li>[ ] 反序列化漏洞</li>
+<li>[ ] 弱类型漏洞</li>
+<li>[ ] 变量覆盖漏洞</li>
+<li><p>[ ] Sql注入</p>
+<ul>
+<li><p>[ ] 类型</p>
+<ul>
+<li><p>[ ] 报错</p>
+</li>
+<li><p>[ ] 联合查询</p>
+</li>
+<li><p>[ ] 堆查询</p>
+</li>
+<li><p>[ ] 盲注</p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 攻击利用</p>
+<ul>
+<li><p>[ ] 寻找注入点</p>
+<ul>
+<li><p>[ ] POST</p>
+</li>
+<li><p>[ ] GET</p>
+</li>
+<li><p>[ ] Cookie</p>
+</li>
+<li><p>[ ] Header</p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 手工注入</p>
+</li>
+<li><p>[ ] DNSLog</p>
+</li>
+<li><p>[ ] 工具注入</p>
+</li>
+<li><p>[ ] GetShell</p>
+</li>
+<li><p>[ ] 绕过防御</p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 预防修复</p>
+<ul>
+<li><p>[ ] 应用层</p>
+</li>
+<li><p>[ ] 网络层</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>[ ] 文件漏洞</p>
+<ul>
+<li><p>[ ] 文件上传漏洞</p>
+<ul>
+<li><p>[ ] 逻辑</p>
+<ul>
+<li><p>[ ] 黑白名单绕过</p>
+</li>
+<li><p>[ ] MIME绕过</p>
+</li>
+<li><p>[x] 后端校验缺失</p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 通用漏洞</p>
+<ul>
+<li><p>[ ] 截断</p>
+</li>
+<li><p>[ ] 利用中间件漏洞绕过</p>
+<ul>
+<li><p>[ ] IIS 5.x/6.0</p>
+</li>
+<li><p>[ ] Nginx</p>
+</li>
+<li><p>[ ] apache</p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 编辑器漏洞</p>
+<ul>
+<li><p>[ ] DotNetTextBox</p>
+</li>
+<li><p>[ ] fckeditor</p>
+</li>
+<li><p>[ ] eWebEditor</p>
+</li>
+<li><p>[ ] UEditor</p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 文件头</p>
+</li>
+<li><p>[ ] .htaccess 绕过</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>[ ] 文件删除漏洞</p>
+</li>
+<li><p>[ ] 文件包含漏洞</p>
+<ul>
+<li><p>[ ] ⽂件远程包含</p>
+</li>
+<li><p>[ ] ⽂件本地包含</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>[ ] XSS</p>
+<ul>
+<li><p>[ ] 基础知识</p>
+<ul>
+<li><p>[ ] 反射型</p>
+</li>
+<li><p>[ ] 存储型</p>
+</li>
+<li><p>[ ] DOM型</p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 攻击利用</p>
+<ul>
+<li><p>[ ] XSS盲打平台</p>
+</li>
+<li><p>[ ] DNSLog</p>
+</li>
+<li><p>[ ] 绕过防御</p>
+<ul>
+<li><p>[ ] 同源策略</p>
+</li>
+<li><p>[ ] CORS</p>
+</li>
+<li><p>[ ] httpOnly</p>
+</li>
+<li><p>[ ] CSP</p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 缓冲区溢出GetShell</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>[ ] 逻辑漏洞</p>
+<ul>
+<li><p>[ ] 系统重装漏洞</p>
+</li>
+<li><p>[ ] 手机验证</p>
+</li>
+<li><p>[ ] 登入爆破</p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 任意用户密码重置</p>
+<ul>
+<li><p>[ ] 越权</p>
+<ul>
+<li><p>[ ] 纵向</p>
+</li>
+<li><p>[ ] 横向</p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 数据遍历</p>
+</li>
+<li><p>[ ] 撞库</p>
+</li>
+<li><p>[ ] ⽀付漏洞</p>
+</li>
+<li><p>[ ] 任意密码重置</p>
+</li>
+<li><p>[ ] 失效验证码</p>
+<ul>
+<li><p>[ ] 简单验证码（利⽤python图⽚识别出验证码内容）</p>
+</li>
+<li><p>[ ] 验证码可重复使用</p>
+</li>
+<li><p>[ ] 验证码遍历</p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 短信轰炸</p>
+</li>
+<li><p>[ ] 越权</p>
+</li>
+<li><p>[ ] 甲⽅安全测试方法</p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 敏感信息泄漏</p>
+<ul>
+<li><p>[ ] .git</p>
+</li>
+<li><p>[ ] .svn</p>
+</li>
+<li><p>[ ] 备份⽂件</p>
+</li>
+<li><p>[ ] 列⽬录</p>
+</li>
+<li><p>[ ] 注释信息</p>
+</li>
+<li><p>[ ] 默认账号/功能</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="通用漏洞披露-1"><a href="#通用漏洞披露-1" class="headerlink" title="通用漏洞披露"></a>通用漏洞披露</h3><p>多收集工具，订阅漏洞信息</p>
+<ul>
+<li><p>[ ] <a href="https://www.cnvd.org.cn/">CNVD</a></p>
+</li>
+<li><p>[ ] <a href="https://cve.mitre.org/">CVE</a></p>
+</li>
+</ul>
+<h3 id="漏扫工具-1"><a href="#漏扫工具-1" class="headerlink" title="漏扫工具"></a>漏扫工具</h3><ul>
+<li><p>[ ] AWVS</p>
+</li>
+<li><p>[ ] APPSCAN</p>
+</li>
+<li><p>[ ] Nessus</p>
+</li>
+<li><p>[ ] Owasp ZAP</p>
+</li>
+<li><p>[ ] Xray</p>
+</li>
+<li><p>[ ] Pocsuite</p>
+</li>
+<li><p>[ ] Goby</p>
+</li>
+</ul>
+<h2 id="后渗透-1"><a href="#后渗透-1" class="headerlink" title="后渗透"></a>后渗透</h2><h3 id="操作系统-1"><a href="#操作系统-1" class="headerlink" title="操作系统"></a>操作系统</h3><ul>
+<li><p>[ ] 持久化</p>
+<ul>
+<li><p>[ ] 稳定通道</p>
+<ul>
+<li><p>[ ] C&amp;C</p>
+</li>
+<li><p>web</p>
+<ul>
+<li><p>[ ] 正向代理</p>
+</li>
+<li><p>[ ] 反向代理</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Bypass</p>
+<ul>
+<li><p>杀毒</p>
+<ul>
+<li><p>360</p>
+</li>
+<li><p>火绒</p>
+</li>
+<li><p>卡巴斯基</p>
+</li>
+<li><p>工具</p>
+<ul>
+<li><p>[ ] iodine</p>
+</li>
+<li><p>[ ] Veil</p>
+</li>
+<li><p>[ ] <a href="https://github.com/EmpireProject/Empire">Empire</a></p>
+</li>
+<li><p>[ ] Nishang: PowerShell</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>权限</p>
+<ul>
+<li><p>[ ] 本地账户</p>
+</li>
+<li><p>[ ] 域账户</p>
+</li>
+<li><p>工具</p>
+<ul>
+<li><p>[ ] Metasploit Framework</p>
+</li>
+<li><p>[ ] Mimikatz</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>工具</p>
+<ul>
+<li><p>[ ] Rootkit</p>
+</li>
+<li><p>[ ] Cobalt Strike</p>
+</li>
+<li><p>[ ] Webshell</p>
+</li>
+<li><p>[ ] Powersploit</p>
+</li>
+<li><p>[ ] Unicorn</p>
+</li>
+<li><p>[ ] Meterpreter</p>
+</li>
+<li><p>[ ] Empire</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>[ ] 信息收集</p>
+<ul>
+<li><p>[ ] 账户认证信息</p>
+</li>
+<li><p>[ ] 系统版本</p>
+</li>
+<li><p>[ ] 配置文件</p>
+</li>
+<li><p>[ ] 日志</p>
+</li>
+<li><p>[ ] 网络连接（寻找管理段地址，顺腾摸瓜）</p>
+</li>
+<li><p>[ ] 安全策略</p>
+</li>
+<li><p>[ ] 系统环境变量</p>
+</li>
+<li><p>[ ] 个人PC</p>
+<ul>
+<li><p>[ ] 浏览记录</p>
+</li>
+<li><p>[ ] 社交信息</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="内网-1"><a href="#内网-1" class="headerlink" title="内网"></a>内网</h3><ul>
+<li><p>[ ] 信息收集</p>
+<ul>
+<li>[ ] 网络探测，部分工具参考信息收集部分</li>
+</ul>
+</li>
+<li><p>[ ] 拓扑</p>
+<ul>
+<li><p>[ ] <a href="https://zhuanlan.zhihu.com/p/267710797">六种基本网络拓扑结构</a></p>
+</li>
+<li><p>[ ] <a href="https://worktile.com/kb/ask/8703.html">常见的网络拓扑结构是什么？</a></p>
+</li>
+</ul>
+</li>
+<li><p>横向移动</p>
+<ul>
+<li><p>普通</p>
+</li>
+<li><p>零信任</p>
+</li>
+<li><p>域</p>
+<ul>
+<li><p>[ ] <a href="https://cloud.tencent.com/developer/article/1144854">域控制器（1）之什么是域控</a></p>
+</li>
+<li><p>[ ] <a href="https://www.freebuf.com/articles/web/253705.html">域渗透基本概念</a></p>
+</li>
+<li><p>[ ] Mimikatz</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="虚拟化-1"><a href="#虚拟化-1" class="headerlink" title="虚拟化"></a>虚拟化</h3><ul>
+<li><p>[ ] 容器</p>
+</li>
+<li><p>[ ] 云</p>
+</li>
+</ul>
+<h2 id="社会工程-1"><a href="#社会工程-1" class="headerlink" title="社会工程"></a>社会工程</h2><h3 id="书籍-1"><a href="#书籍-1" class="headerlink" title="书籍"></a>书籍</h3><ul>
+<li><p>[ ] 社会工程 卷1 安全体系中的人性漏洞</p>
+</li>
+<li><p>[ ] 社会工程 卷2解读肢体语言</p>
+</li>
+<li><p>[ ] 社会工程 卷3 防范钓鱼欺诈</p>
+</li>
+</ul>
+<h3 id="水坑攻击-1"><a href="#水坑攻击-1" class="headerlink" title="水坑攻击"></a>水坑攻击</h3><p>待补充</p>
+<h3 id="供应链攻击-1"><a href="#供应链攻击-1" class="headerlink" title="供应链攻击"></a>供应链攻击</h3><p>待补充</p>
+<h3 id="钓鱼-1"><a href="#钓鱼-1" class="headerlink" title="钓鱼"></a>钓鱼</h3><p>待补充</p>
+<h3 id="工具-3"><a href="#工具-3" class="headerlink" title="工具"></a>工具</h3><ul>
+<li><p><a href="https://github.com/trustedsec/social-engineer-toolkit">Social-Engineer Toolkit (SET)</a></p>
+</li>
+<li><p><a href="https://github.com/topics/phishing">https://github.com/topics/phishing</a></p>
+</li>
+<li><p><a href="https://github.com/topics/phishing-tool">https://github.com/topics/phishing-tool</a></p>
+</li>
+</ul>
+<h2 id="综合靶场-1"><a href="#综合靶场-1" class="headerlink" title="综合靶场"></a>综合靶场</h2><p>同类型靶场打两个足以，不是非要都打一遍</p>
+<ul>
+<li><p>[ ] HackTheBox </p>
+</li>
+<li><p>[ ] VulnHub</p>
+</li>
+<li><p>[ ] TryHackMe </p>
+</li>
+<li><p>[ ] Metasploitable</p>
+</li>
+<li><p>[ ] PentesterLab</p>
+</li>
+<li><p>[ ] <a href="https://sourceforge.net/projects/hackxor/">hackxor</a></p>
+</li>
+<li><p>[ ] <a href="https://github.com/WebGoat/WebGoat">WebGoat</a></p>
+</li>
+<li><p>[ ] <a href="https://github.com/Hackademic/hackademic">hackademic</a></p>
+</li>
+<li><p>[ ] <a href="https://xss-game.appspot.com/">Google推出的Xss在线实验靶场</a></p>
+</li>
+<li><p>[ ] <a href="https://github.com/digininja/DVWA">DVWA</a></p>
+</li>
+<li><p>[ ] <a href="https://github.com/vulhub/vulhub">vulhub</a></p>
+</li>
+<li><p>[ ] <a href="https://vulab.io/">vulab</a></p>
+</li>
+</ul>
+<h2 id="实战-1"><a href="#实战-1" class="headerlink" title="实战"></a>实战</h2><p>待补充，红蓝对抗月底前上线。</p>
+<h2 id="书籍推荐-1"><a href="#书籍推荐-1" class="headerlink" title="书籍推荐"></a>书籍推荐</h2><p>选择喜欢的看，不是都要看一遍</p>
+<ul>
+<li><p>[ ] 《白帽子讲Web安全》</p>
+</li>
+<li><p>[ ] 《Web前端黑客技术揭秘》</p>
+</li>
+<li><p>[ ] 《Web应用安全权威指南》</p>
+</li>
+<li><p>[ ] 《黑客攻防技术宝典 Web实战篇》</p>
+</li>
+<li><p>[ ] 《白帽子讲网络安全》</p>
+</li>
+<li><p>[ ] 《Web渗透测试：实战指南》</p>
+</li>
+<li><p>[ ] 《Web安全攻防：漏洞剖析与防范》</p>
+</li>
+<li><p>[ ] 《OWASP权威指南》</p>
+</li>
+<li><p>[ ] 《Web安全深度剖析》</p>
+</li>
+<li><p>[ ] 《Web安全开发指南》</p>
+</li>
+<li><p>[ ] 《Metasploit渗透测试指南》</p>
+</li>
+<li><p>[ ] 《Web应用程序安全攻防》</p>
+</li>
+<li><p>[ ] 《黑客攻防技术宝典：Web实战篇》</p>
+</li>
+<li><p>[ ] 《白帽子讲Web安全》</p>
+</li>
+<li><p>[ ] 《互联网+安全：从入门到实践》</p>
+</li>
+<li><p>[ ] 《Kali Linux渗透测试实战》</p>
+</li>
+<li><p>[ ] 《Python渗透测试实战》</p>
+</li>
+<li><p>[ ] 《护网必备：网络安全入门与渗透测试实战》</p>
+</li>
+<li><p>[ ] 《黑客秘笈：渗透测试实战》</p>
+</li>
+<li><p>[ ] 《Web安全攻防之道》</p>
+</li>
+<li><p>[ ] 《企业安全渗透测试实战》</p>
+</li>
+<li><p>[ ] 《漏洞扫描与渗透测试：Web安全领域最佳实践》</p>
+</li>
+<li><p>[ ] 《渗透测试实战案例解析》</p>
+</li>
+<li><p>[ ] 《信息安全技术基础》</p>
+</li>
+<li><p>[ ] 《黑客攻防技术宝典：网络篇》</p>
+</li>
+<li><p>[ ] 《渗透测试实战详解》</p>
+</li>
+<li><p>[ ] 《黑客与计算机病毒防范攻略》</p>
+</li>
+<li><p>[ ] 《渗透测试实战指南》</p>
+</li>
+<li><p>[ ] 《Web渗透测试实战》</p>
+</li>
+<li><p>[ ] 《黑客与画家》</p>
+</li>
+</ul>
+<h2 id="学习资源-1"><a href="#学习资源-1" class="headerlink" title="学习资源"></a>学习资源</h2><ul>
+<li><a href="https://www.freebuf.com/">freebuf</a></li>
+<li><a href="https://www.anquanke.com/">安全客</a></li>
+<li><a href="https://xz.aliyun.com/">先知社区</a></li>
+<li><a href="https://secself.com/">助安社区</a></li>
+<li><a href="https://www.secpulse.com/">安全脉搏</a></li>
+<li><a href="https://paper.seebug.org/">seebug</a></li>
+<li>twitter</li>
+<li><a href="https://www.hackerone.com/">HackerOne</a></li>
+<li><a href="https://book.hacktricks.xyz/welcome/readme">hacktricks</a></li>
+<li><a href="https://weibell.github.io/reverse-shell-generator/">https://weibell.github.io/reverse-shell-generator/</a></li>
+<li><a href="https://github.com/0x00-0x00/ShellPop">https://github.com/0x00-0x00/ShellPop</a></li>
+<li><a href="https://github.com/xct/xc/">https://github.com/xct/xc/</a></li>
+<li><a href="https://github.com/Hack-with-Github/Awesome-Hacking">https://github.com/Hack-with-Github/Awesome-Hacking</a></li>
+<li><a href="https://github.com/zer0yu/Awesome-CobaltStrike">https://github.com/zer0yu/Awesome-CobaltStrike</a></li>
+<li><a href="https://github.com/alphaSeclab/awesome-rat">https://github.com/alphaSeclab/awesome-rat</a></li>
+<li><a href="https://www.exploit-db.com/">https://www.exploit-db.com/</a></li>
+<li><a href="https://github.com/fabacab/awesome-cybersecurity-blueteam">awesome-cybersecurity-blueteam</a>    </li>
+<li><a href="https://www.hackingarticles.in/category/wireless-hacking/">https://www.hackingarticles.in/category/wireless-hacking/</a></li>
+<li><a href="https://github.com/The-Art-of-Hacking/h4cker">https://github.com/The-Art-of-Hacking/h4cker</a></li>
+</ul>
+<h2 id="前置知识-2"><a href="#前置知识-2" class="headerlink" title="前置知识"></a>前置知识</h2><ul>
+<li>[ ] 掌握操作系统使用</li>
+<li>[ ] 熟练重装系统</li>
+<li>[ ] 什么是web网站？<ul>
+<li><a href="https://baike.baidu.com/item/web/150564">https://baike.baidu.com/item/web/150564</a></li>
+</ul>
+</li>
+<li><p>[ ] HTML/CSS/JS</p>
+<ul>
+<li><p><a href="https://www.w3schools.com/">https://www.w3schools.com/</a></p>
+</li>
+<li><p><a href="https://developer.mozilla.org/zh-CN/docs/Web">https://developer.mozilla.org/zh-CN/docs/Web</a></p>
+</li>
+<li><p><a href="https://www.runoob.com/tags/ref-standardattributes.html">https://www.runoob.com/tags/ref-standardattributes.html</a></p>
+</li>
+</ul>
+</li>
+<li>[ ] Golang（未来趋势，良好的跨平台、优秀的多线程和网络处理）<ul>
+<li><a href="https://www.bilibili.com/video/BV1vM411r7GW/">【坤哥力荐】4星期速成学会poc，摆脱脚本小子</a></li>
+</ul>
+</li>
+<li>[ ] Python（社区庞大，入门简单，可以作为初学语言）<ul>
+<li><a href="https://www.bilibili.com/video/BV1qW4y1a7fU">https://www.bilibili.com/video/BV1qW4y1a7fU</a></li>
+</ul>
+</li>
+<li>[ ] Java（后端开发主流语言，通用漏洞发现几乎是最多的语言，学习难度大，不推荐）</li>
+<li>[ ] 数据库（一种类型选择一个了解）<ul>
+<li>Sql<ul>
+<li>[ ] MySQL（推荐）</li>
+<li>[ ] Oracle</li>
+<li>[ ] MSSQL</li>
+</ul>
+</li>
+<li>NoSql<ul>
+<li>[ ] Redis（推荐）</li>
+<li>[ ] MongoDB</li>
+<li>[ ] ElasticSearch</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>[ ] Linux基础命令（日常操作、应急和搭建靶场）<ul>
+<li><a href="http://linux-command.kit.secself.com/">Linux命令速查手册</a></li>
+<li><a href="https://www.runoob.com/linux/linux-command-manual.html">Linux 命令大全</a></li>
+</ul>
+</li>
+<li>[ ] Docker（了解原理，日常使用无障碍）<ul>
+<li><a href="https://www.runoob.com/docker/docker-tutorial.html">Docker 教程</a></li>
+<li><a href="https://github.com/docker/compose">Docker Compose </a></li>
+</ul>
+</li>
+</ul>
+<p>掌握一门后端编程语言，有编程基础后续学习更顺利。</p>
+<h3 id="协议-2"><a href="#协议-2" class="headerlink" title="协议"></a>协议</h3><p>助安社区开源的基础速成，大部分基础协议都已整理完毕，点击 👉  <a href="http://security-base.book.secself.com/protocol/index.html">安全速学手册</a></p>
+<ul>
+<li><p>[ ] HTTP协议</p>
+<ul>
+<li><p><a href="https://developer.mozilla.org/zh-CN/docs/Web/HTTP">超文本传输协议（HTTP）</a></p>
+</li>
+<li><p><a href="https://www.runoob.com/http/http-tutorial.html">HTTP 教程</a></p>
+</li>
+</ul>
+</li>
+<li>[ ] ARP</li>
+<li>[ ] DHCP</li>
+<li>[ ] SMB</li>
+<li>[ ] DNS</li>
+<li>[ ] 代理</li>
+<li>[ ] HTTP</li>
+<li>[ ] Socks5</li>
+<li>[ ] VPN</li>
+<li>[ ] FTP</li>
+<li>[ ] SSH</li>
+</ul>
+<p>…</p>
+<h2 id="信息收集-2"><a href="#信息收集-2" class="headerlink" title="信息收集"></a>信息收集</h2><h3 id="网络-2"><a href="#网络-2" class="headerlink" title="网络"></a>网络</h3><ul>
+<li><p>[ ] 子网掩码（B段、C段）</p>
+<ul>
+<li>[ ] <a href="https://www.zhihu.com/question/56895036">如何理解子网掩码？</a></li>
+<li>[ ] 工具<ul>
+<li>[ ] <a href="https://github.com/robertdavidgraham/masscan">Masascan</a></li>
+<li>[ ] <a href="https://zmap.io/">Zmap</a><ul>
+<li>[ ] <a href="https://github.com/zmap/zgrab2">zgrab2</a></li>
+</ul>
+</li>
+<li>[ ] <a href="https://nmap.org">Nmap</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>[ ] ASN</p>
+<ul>
+<li><a href="https://www.cloudflare.com/zh-cn/learning/network-layer/what-is-an-autonomous-system/">什么是自治系统？| 什么是 ASN？</a></li>
+<li><p>ASN 查询</p>
+<ul>
+<li><p><a href="https://hackertarget.com/as-ip-lookup/">https://hackertarget.com/as-ip-lookup/</a></p>
+</li>
+<li><p><a href="https://dnschecker.org/asn-whois-lookup.php">https://dnschecker.org/asn-whois-lookup.php</a></p>
+</li>
+</ul>
+</li>
+<li><p>工具</p>
+<ul>
+<li>[ ] <a href="https://github.com/owasp-amass/amass">Amass</a></li>
+<li>[ ] <a href="https://zmap.io/">Zmap</a><ul>
+<li>[ ] <a href="https://github.com/zmap/zcrypto">zcrypto</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>[ ] IP反查域名</p>
+<ul>
+<li><a href="https://www.ipaddress.com/">https://www.ipaddress.com/</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="域名-2"><a href="#域名-2" class="headerlink" title="域名"></a>域名</h3><ul>
+<li>[ ] 子域名（A记录/AAAA记录（IPV6））</li>
+<li>[ ] CNAME</li>
+<li>[ ] 邮箱记录（MX）</li>
+<li>[ ] TXT</li>
+<li><p>[ ] 历史记录</p>
+<ul>
+<li><a href="https://securitytrails.com">https://securitytrails.com</a></li>
+</ul>
+</li>
+<li><p>[ ] 工具</p>
+<ul>
+<li>[ ] Whois</li>
+<li>[ ] <a href="https://github.com/owasp-amass/amass">Amass</a></li>
+<li>[ ] <a href="https://github.com/yanxiu0614/subdomain3.git">subdomain3</a></li>
+<li>[ ] <a href="https://github.com/resurrecting-open-source-projects/dnsmap">dnsmap</a></li>
+<li>[ ] <a href="https://github.com/knownsec/ksubdomain.git">ksubdomain </a></li>
+</ul>
+</li>
+</ul>
+<h3 id="公开信息-2"><a href="#公开信息-2" class="headerlink" title="公开信息"></a>公开信息</h3><ul>
+<li><p>[ ] 搜索引擎</p>
+<ul>
+<li>[ ] <a href="https://www.exploit-db.com/google-hacking-database">黑客常用的Google搜索语法</a></li>
+</ul>
+</li>
+<li><p>[ ] 网络空间搜索引擎</p>
+<ul>
+<li><p>[ ] <a href="https://fofa.info/">FOFA</a></p>
+</li>
+<li><p>[ ] <a href="https://www.shodan.io/">Shadow</a></p>
+</li>
+<li><p>[ ] <a href="https://censys.io/">Censys</a></p>
+</li>
+<li><p>[ ] <a href="https://www.zoomeye.org/">ZoomEye</a></p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 工商信息</p>
+<ul>
+<li><p>[ ] 证书</p>
+</li>
+<li><p>[ ] 邮箱</p>
+</li>
+<li><p>[ ] <a href="https://beian.miit.gov.cn/">ICP备案信息</a></p>
+</li>
+<li><p>[ ] 子公司</p>
+</li>
+<li><p>[ ] 集团</p>
+</li>
+<li><p>[ ] 合作商</p>
+</li>
+<li><p>[ ] 供应商</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="HTTP-2"><a href="#HTTP-2" class="headerlink" title="HTTP"></a>HTTP</h3><ul>
+<li>[ ] 网站目录</li>
+</ul>
+<h3 id="工具-4"><a href="#工具-4" class="headerlink" title="工具"></a>工具</h3><ul>
+<li><p>[ ] <a href="https://www.maltego.com/">Maltego</a></p>
+</li>
+<li><p>[ ] <a href="https://github.com/Threezh1/JSFinder">JSFinder</a></p>
+</li>
+<li><p>[ ] <a href="https://github.com/shmilylty/OneForAll">OneForAll</a></p>
+</li>
+<li><p>[ ] <a href="https://github.com/topics/subdomain-scanner">subdomain-scanner</a></p>
+</li>
+</ul>
+<h3 id="指纹-2"><a href="#指纹-2" class="headerlink" title="指纹"></a>指纹</h3><p>待补充</p>
+<h2 id="漏洞挖掘-2"><a href="#漏洞挖掘-2" class="headerlink" title="漏洞挖掘"></a>漏洞挖掘</h2><h3 id="WEB漏洞（原理搞懂，靶场实践几次）-2"><a href="#WEB漏洞（原理搞懂，靶场实践几次）-2" class="headerlink" title="WEB漏洞（原理搞懂，靶场实践几次）"></a>WEB漏洞（原理搞懂，靶场实践几次）</h3><ul>
+<li><p>[ ] Owasp 漏洞</p>
+<ul>
+<li><a href="https://owasp.org/Top10/zh_CN/">OWASP Top 10 2021 介紹 </a></li>
+</ul>
+</li>
+<li><a href="http://www.owasp.org.cn/OWASP-CHINA/owasp-project/OWASP-TOP10-2021%E4%B8%AD%E6%96%87%E7%89%88V1.0%E5%8F%91%E5%B8%83.pdf">PDF中文下载地址</a></li>
+<li>[ ] JSONP劫持</li>
+<li>[ ] CRLF注入</li>
+<li>[ ] 命令执行</li>
+<li>[ ] 代码执行</li>
+<li>[ ] XXE</li>
+<li>[ ] CSRF</li>
+<li>[ ] SSRF</li>
+<li>[ ] DDOS</li>
+<li>[ ] CRLF injection</li>
+<li>[ ] 反序列化漏洞</li>
+<li>[ ] 弱类型漏洞</li>
+<li>[ ] 变量覆盖漏洞</li>
+<li><p>[ ] Sql注入</p>
+<ul>
+<li><p>[ ] 类型</p>
+<ul>
+<li><p>[ ] 报错</p>
+</li>
+<li><p>[ ] 联合查询</p>
+</li>
+<li><p>[ ] 堆查询</p>
+</li>
+<li><p>[ ] 盲注</p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 攻击利用</p>
+<ul>
+<li><p>[ ] 寻找注入点</p>
+<ul>
+<li><p>[ ] POST</p>
+</li>
+<li><p>[ ] GET</p>
+</li>
+<li><p>[ ] Cookie</p>
+</li>
+<li><p>[ ] Header</p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 手工注入</p>
+</li>
+<li><p>[ ] DNSLog</p>
+</li>
+<li><p>[ ] 工具注入</p>
+</li>
+<li><p>[ ] GetShell</p>
+</li>
+<li><p>[ ] 绕过防御</p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 预防修复</p>
+<ul>
+<li><p>[ ] 应用层</p>
+</li>
+<li><p>[ ] 网络层</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>[ ] 文件漏洞</p>
+<ul>
+<li><p>[ ] 文件上传漏洞</p>
+<ul>
+<li><p>[ ] 逻辑</p>
+<ul>
+<li><p>[ ] 黑白名单绕过</p>
+</li>
+<li><p>[ ] MIME绕过</p>
+</li>
+<li><p>[x] 后端校验缺失</p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 通用漏洞</p>
+<ul>
+<li><p>[ ] 截断</p>
+</li>
+<li><p>[ ] 利用中间件漏洞绕过</p>
+<ul>
+<li><p>[ ] IIS 5.x/6.0</p>
+</li>
+<li><p>[ ] Nginx</p>
+</li>
+<li><p>[ ] apache</p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 编辑器漏洞</p>
+<ul>
+<li><p>[ ] DotNetTextBox</p>
+</li>
+<li><p>[ ] fckeditor</p>
+</li>
+<li><p>[ ] eWebEditor</p>
+</li>
+<li><p>[ ] UEditor</p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 文件头</p>
+</li>
+<li><p>[ ] .htaccess 绕过</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>[ ] 文件删除漏洞</p>
+</li>
+<li><p>[ ] 文件包含漏洞</p>
+<ul>
+<li><p>[ ] ⽂件远程包含</p>
+</li>
+<li><p>[ ] ⽂件本地包含</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>[ ] XSS</p>
+<ul>
+<li><p>[ ] 基础知识</p>
+<ul>
+<li><p>[ ] 反射型</p>
+</li>
+<li><p>[ ] 存储型</p>
+</li>
+<li><p>[ ] DOM型</p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 攻击利用</p>
+<ul>
+<li><p>[ ] XSS盲打平台</p>
+</li>
+<li><p>[ ] DNSLog</p>
+</li>
+<li><p>[ ] 绕过防御</p>
+<ul>
+<li><p>[ ] 同源策略</p>
+</li>
+<li><p>[ ] CORS</p>
+</li>
+<li><p>[ ] httpOnly</p>
+</li>
+<li><p>[ ] CSP</p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 缓冲区溢出GetShell</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>[ ] 逻辑漏洞</p>
+<ul>
+<li><p>[ ] 系统重装漏洞</p>
+</li>
+<li><p>[ ] 手机验证</p>
+</li>
+<li><p>[ ] 登入爆破</p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 任意用户密码重置</p>
+<ul>
+<li><p>[ ] 越权</p>
+<ul>
+<li><p>[ ] 纵向</p>
+</li>
+<li><p>[ ] 横向</p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 数据遍历</p>
+</li>
+<li><p>[ ] 撞库</p>
+</li>
+<li><p>[ ] ⽀付漏洞</p>
+</li>
+<li><p>[ ] 任意密码重置</p>
+</li>
+<li><p>[ ] 失效验证码</p>
+<ul>
+<li><p>[ ] 简单验证码（利⽤python图⽚识别出验证码内容）</p>
+</li>
+<li><p>[ ] 验证码可重复使用</p>
+</li>
+<li><p>[ ] 验证码遍历</p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 短信轰炸</p>
+</li>
+<li><p>[ ] 越权</p>
+</li>
+<li><p>[ ] 甲⽅安全测试方法</p>
+</li>
+</ul>
+</li>
+<li><p>[ ] 敏感信息泄漏</p>
+<ul>
+<li><p>[ ] .git</p>
+</li>
+<li><p>[ ] .svn</p>
+</li>
+<li><p>[ ] 备份⽂件</p>
+</li>
+<li><p>[ ] 列⽬录</p>
+</li>
+<li><p>[ ] 注释信息</p>
+</li>
+<li><p>[ ] 默认账号/功能</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="通用漏洞披露-2"><a href="#通用漏洞披露-2" class="headerlink" title="通用漏洞披露"></a>通用漏洞披露</h3><p>多收集工具，订阅漏洞信息</p>
+<ul>
+<li><p>[ ] <a href="https://www.cnvd.org.cn/">CNVD</a></p>
+</li>
+<li><p>[ ] <a href="https://cve.mitre.org/">CVE</a></p>
+</li>
+</ul>
+<h3 id="漏扫工具-2"><a href="#漏扫工具-2" class="headerlink" title="漏扫工具"></a>漏扫工具</h3><ul>
+<li><p>[ ] AWVS</p>
+</li>
+<li><p>[ ] APPSCAN</p>
+</li>
+<li><p>[ ] Nessus</p>
+</li>
+<li><p>[ ] Owasp ZAP</p>
+</li>
+<li><p>[ ] Xray</p>
+</li>
+<li><p>[ ] Pocsuite</p>
+</li>
+<li><p>[ ] Goby</p>
+</li>
+</ul>
+<h2 id="后渗透-2"><a href="#后渗透-2" class="headerlink" title="后渗透"></a>后渗透</h2><h3 id="操作系统-2"><a href="#操作系统-2" class="headerlink" title="操作系统"></a>操作系统</h3><ul>
+<li><p>[ ] 持久化</p>
+<ul>
+<li><p>[ ] 稳定通道</p>
+<ul>
+<li><p>[ ] C&amp;C</p>
+</li>
+<li><p>web</p>
+<ul>
+<li><p>[ ] 正向代理</p>
+</li>
+<li><p>[ ] 反向代理</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Bypass</p>
+<ul>
+<li><p>杀毒</p>
+<ul>
+<li><p>360</p>
+</li>
+<li><p>火绒</p>
+</li>
+<li><p>卡巴斯基</p>
+</li>
+<li><p>工具</p>
+<ul>
+<li><p>[ ] iodine</p>
+</li>
+<li><p>[ ] Veil</p>
+</li>
+<li><p>[ ] <a href="https://github.com/EmpireProject/Empire">Empire</a></p>
+</li>
+<li><p>[ ] Nishang: PowerShell</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>权限</p>
+<ul>
+<li><p>[ ] 本地账户</p>
+</li>
+<li><p>[ ] 域账户</p>
+</li>
+<li><p>工具</p>
+<ul>
+<li><p>[ ] Metasploit Framework</p>
+</li>
+<li><p>[ ] Mimikatz</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>工具</p>
+<ul>
+<li><p>[ ] Rootkit</p>
+</li>
+<li><p>[ ] Cobalt Strike</p>
+</li>
+<li><p>[ ] Webshell</p>
+</li>
+<li><p>[ ] Powersploit</p>
+</li>
+<li><p>[ ] Unicorn</p>
+</li>
+<li><p>[ ] Meterpreter</p>
+</li>
+<li><p>[ ] Empire</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>[ ] 信息收集</p>
+<ul>
+<li><p>[ ] 账户认证信息</p>
+</li>
+<li><p>[ ] 系统版本</p>
+</li>
+<li><p>[ ] 配置文件</p>
+</li>
+<li><p>[ ] 日志</p>
+</li>
+<li><p>[ ] 网络连接（寻找管理段地址，顺腾摸瓜）</p>
+</li>
+<li><p>[ ] 安全策略</p>
+</li>
+<li><p>[ ] 系统环境变量</p>
+</li>
+<li><p>[ ] 个人PC</p>
+<ul>
+<li><p>[ ] 浏览记录</p>
+</li>
+<li><p>[ ] 社交信息</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="内网-2"><a href="#内网-2" class="headerlink" title="内网"></a>内网</h3><ul>
+<li><p>[ ] 信息收集</p>
+<ul>
+<li>[ ] 网络探测，部分工具参考信息收集部分</li>
+</ul>
+</li>
+<li><p>[ ] 拓扑</p>
+<ul>
+<li><p>[ ] <a href="https://zhuanlan.zhihu.com/p/267710797">六种基本网络拓扑结构</a></p>
+</li>
+<li><p>[ ] <a href="https://worktile.com/kb/ask/8703.html">常见的网络拓扑结构是什么？</a></p>
+</li>
+</ul>
+</li>
+<li><p>横向移动</p>
+<ul>
+<li><p>普通</p>
+</li>
+<li><p>零信任</p>
+</li>
+<li><p>域</p>
+<ul>
+<li><p>[ ] <a href="https://cloud.tencent.com/developer/article/1144854">域控制器（1）之什么是域控</a></p>
+</li>
+<li><p>[ ] <a href="https://www.freebuf.com/articles/web/253705.html">域渗透基本概念</a></p>
+</li>
+<li><p>[ ] Mimikatz</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="虚拟化-2"><a href="#虚拟化-2" class="headerlink" title="虚拟化"></a>虚拟化</h3><ul>
+<li><p>[ ] 容器</p>
+</li>
+<li><p>[ ] 云</p>
+</li>
+</ul>
+<h2 id="社会工程-2"><a href="#社会工程-2" class="headerlink" title="社会工程"></a>社会工程</h2><h3 id="书籍-2"><a href="#书籍-2" class="headerlink" title="书籍"></a>书籍</h3><ul>
+<li><p>[ ] 社会工程 卷1 安全体系中的人性漏洞</p>
+</li>
+<li><p>[ ] 社会工程 卷2解读肢体语言</p>
+</li>
+<li><p>[ ] 社会工程 卷3 防范钓鱼欺诈</p>
+</li>
+</ul>
+<h3 id="水坑攻击-2"><a href="#水坑攻击-2" class="headerlink" title="水坑攻击"></a>水坑攻击</h3><p>待补充</p>
+<h3 id="供应链攻击-2"><a href="#供应链攻击-2" class="headerlink" title="供应链攻击"></a>供应链攻击</h3><p>待补充</p>
+<h3 id="钓鱼-2"><a href="#钓鱼-2" class="headerlink" title="钓鱼"></a>钓鱼</h3><p>待补充</p>
+<h3 id="工具-5"><a href="#工具-5" class="headerlink" title="工具"></a>工具</h3><ul>
+<li><p><a href="https://github.com/trustedsec/social-engineer-toolkit">Social-Engineer Toolkit (SET)</a></p>
+</li>
+<li><p><a href="https://github.com/topics/phishing">https://github.com/topics/phishing</a></p>
+</li>
+<li><p><a href="https://github.com/topics/phishing-tool">https://github.com/topics/phishing-tool</a></p>
+</li>
+</ul>
+<h2 id="综合靶场-2"><a href="#综合靶场-2" class="headerlink" title="综合靶场"></a>综合靶场</h2><p>同类型靶场打两个足以，不是非要都打一遍</p>
+<ul>
+<li><p>[ ] HackTheBox </p>
+</li>
+<li><p>[ ] VulnHub</p>
+</li>
+<li><p>[ ] TryHackMe </p>
+</li>
+<li><p>[ ] Metasploitable</p>
+</li>
+<li><p>[ ] PentesterLab</p>
+</li>
+<li><p>[ ] <a href="https://sourceforge.net/projects/hackxor/">hackxor</a></p>
+</li>
+<li><p>[ ] <a href="https://github.com/WebGoat/WebGoat">WebGoat</a></p>
+</li>
+<li><p>[ ] <a href="https://github.com/Hackademic/hackademic">hackademic</a></p>
+</li>
+<li><p>[ ] <a href="https://xss-game.appspot.com/">Google推出的Xss在线实验靶场</a></p>
+</li>
+<li><p>[ ] <a href="https://github.com/digininja/DVWA">DVWA</a></p>
+</li>
+<li><p>[ ] <a href="https://github.com/vulhub/vulhub">vulhub</a></p>
+</li>
+<li><p>[ ] <a href="https://vulab.io/">vulab</a></p>
+</li>
+</ul>
+<h2 id="实战-2"><a href="#实战-2" class="headerlink" title="实战"></a>实战</h2><p>待补充，红蓝对抗月底前上线。</p>
+<h2 id="书籍推荐-2"><a href="#书籍推荐-2" class="headerlink" title="书籍推荐"></a>书籍推荐</h2><p>选择喜欢的看，不是都要看一遍</p>
+<ul>
+<li><p>[ ] 《白帽子讲Web安全》</p>
+</li>
+<li><p>[ ] 《Web前端黑客技术揭秘》</p>
+</li>
+<li><p>[ ] 《Web应用安全权威指南》</p>
+</li>
+<li><p>[ ] 《黑客攻防技术宝典 Web实战篇》</p>
+</li>
+<li><p>[ ] 《白帽子讲网络安全》</p>
+</li>
+<li><p>[ ] 《Web渗透测试：实战指南》</p>
+</li>
+<li><p>[ ] 《Web安全攻防：漏洞剖析与防范》</p>
+</li>
+<li><p>[ ] 《OWASP权威指南》</p>
+</li>
+<li><p>[ ] 《Web安全深度剖析》</p>
+</li>
+<li><p>[ ] 《Web安全开发指南》</p>
+</li>
+<li><p>[ ] 《Metasploit渗透测试指南》</p>
+</li>
+<li><p>[ ] 《Web应用程序安全攻防》</p>
+</li>
+<li><p>[ ] 《黑客攻防技术宝典：Web实战篇》</p>
+</li>
+<li><p>[ ] 《白帽子讲Web安全》</p>
+</li>
+<li><p>[ ] 《互联网+安全：从入门到实践》</p>
+</li>
+<li><p>[ ] 《Kali Linux渗透测试实战》</p>
+</li>
+<li><p>[ ] 《Python渗透测试实战》</p>
+</li>
+<li><p>[ ] 《护网必备：网络安全入门与渗透测试实战》</p>
+</li>
+<li><p>[ ] 《黑客秘笈：渗透测试实战》</p>
+</li>
+<li><p>[ ] 《Web安全攻防之道》</p>
+</li>
+<li><p>[ ] 《企业安全渗透测试实战》</p>
+</li>
+<li><p>[ ] 《漏洞扫描与渗透测试：Web安全领域最佳实践》</p>
+</li>
+<li><p>[ ] 《渗透测试实战案例解析》</p>
+</li>
+<li><p>[ ] 《信息安全技术基础》</p>
+</li>
+<li><p>[ ] 《黑客攻防技术宝典：网络篇》</p>
+</li>
+<li><p>[ ] 《渗透测试实战详解》</p>
+</li>
+<li><p>[ ] 《黑客与计算机病毒防范攻略》</p>
+</li>
+<li><p>[ ] 《渗透测试实战指南》</p>
+</li>
+<li><p>[ ] 《Web渗透测试实战》</p>
+</li>
+<li><p>[ ] 《黑客与画家》</p>
+</li>
+</ul>
+<h2 id="学习资源-2"><a href="#学习资源-2" class="headerlink" title="学习资源"></a>学习资源</h2><ul>
+<li><a href="https://www.freebuf.com/">freebuf</a></li>
+<li><a href="https://www.anquanke.com/">安全客</a></li>
+<li><a href="https://xz.aliyun.com/">先知社区</a></li>
+<li><a href="https://secself.com/">助安社区</a></li>
+<li><a href="https://www.secpulse.com/">安全脉搏</a></li>
+<li><a href="https://paper.seebug.org/">seebug</a></li>
+<li>twitter</li>
+<li><a href="https://www.hackerone.com/">HackerOne</a></li>
+<li><a href="https://book.hacktricks.xyz/welcome/readme">hacktricks</a></li>
+<li><a href="https://weibell.github.io/reverse-shell-generator/">https://weibell.github.io/reverse-shell-generator/</a></li>
+<li><a href="https://github.com/0x00-0x00/ShellPop">https://github.com/0x00-0x00/ShellPop</a></li>
+<li><a href="https://github.com/xct/xc/">https://github.com/xct/xc/</a></li>
+<li><a href="https://github.com/Hack-with-Github/Awesome-Hacking">https://github.com/Hack-with-Github/Awesome-Hacking</a></li>
+<li><a href="https://github.com/zer0yu/Awesome-CobaltStrike">https://github.com/zer0yu/Awesome-CobaltStrike</a></li>
+<li><a href="https://github.com/alphaSeclab/awesome-rat">https://github.com/alphaSeclab/awesome-rat</a></li>
+<li><a href="https://www.exploit-db.com/">https://www.exploit-db.com/</a></li>
+<li><a href="https://github.com/fabacab/awesome-cybersecurity-blueteam">awesome-cybersecurity-blueteam</a>    </li>
+<li><a href="https://www.hackingarticles.in/category/wireless-hacking/">https://www.hackingarticles.in/category/wireless-hacking/</a></li>
+<li><a href="https://github.com/The-Art-of-Hacking/h4cker">https://github.com/The-Art-of-Hacking/h4cker</a></li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>test</title>
+    <url>//test.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>//Hello.html</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
 </search>
